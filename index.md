@@ -14,6 +14,7 @@ Hardware and data science [resume](https://github.com/worasom/worasom.github.io/
 LinkedIn [page](https://www.linkedin.com/in/worasom/)
 
 # Machine Learning Projects
+
 ## Analysis of Air Pollution Data [git repository](https://github.com/worasom/aqi_thailand) 
 - Enabled effective environmental policy change by identifying main air pollutant sources.
 - Scraped weather and Bangkok air pollution data - NASA’s fire map, Berkeley’s Earth air pollution, and traffic data (Requests, wget, selenium, BeautifulSoup libraries) 
@@ -22,12 +23,13 @@ LinkedIn [page](https://www.linkedin.com/in/worasom/)
 - Built a machine learning pipeline to identify the major contributors to PM2.5 air pollution: Used autoML the best models and hyper parameters (TPOT library), identify the feature of importance, and thus the pollution sources.
 - Obtain 0.78 R-square on the validation set 
 - Try other ML models: Use neural network (fast.ai), and VAR models(statmodels)
-- Blog: Scraping Air Pollution Data from Thailand EPA in [Medium.com](https://medium.com/@worasom/scraping-air-pollution-data-from-thailand-epa-a866f291c06)  
-- Blog: Identifying the Sources of Winter Air Pollution in Bangkok Part I[Medium.com](https://towardsdatascience.com/identifying-the-sources-of-winter-air-pollution-in-bangkok-part-i-d4392ea608dc)
-- Blog: Identifying the Sources of Winter Air Pollution in Bangkok Part II[Medium.com](https://towardsdatascience.com/identifying-the-sources-of-winter-air-pollution-in-bangkok-part-ii-72539f9b767a)
+- Blog: Scraping Air Pollution Data from Thailand EPA. Published in [Medium.com](https://medium.com/@worasom/scraping-air-pollution-data-from-thailand-epa-a866f291c06)  
+- Blog: Identifying the Sources of Winter Air Pollution in Bangkok Part I. Published in [Medium.com](https://towardsdatascience.com/identifying-the-sources-of-winter-air-pollution-in-bangkok-part-i-d4392ea608dc)
+- Blog: Identifying the Sources of Winter Air Pollution in Bangkok Part II. Published in [Medium.com](https://towardsdatascience.com/identifying-the-sources-of-winter-air-pollution-in-bangkok-part-ii-72539f9b767a)
 
 ## Health Data 
-- Automatic liver patients identification from their blood test data [git repository](https://github.com/worasom/indian_liver_patients)
+
+**Automatic liver patients identification from their blood test data [git repository](https://github.com/worasom/indian_liver_patients)
 - Exploratory data analysis and feature engineering using Python (pandas, numpy, matplot. pyplotlib)
 - Feature selection from feature of importance. Remove redundant feature using hierarchical clustering (scipy library)
 - Applied different classification models.  Compare performance of [random forest](https://github.com/worasom/indian_liver_patients/blob/master/Indian_liver_patients_random_forest.ipynb), [logistic regression](https://github.com/worasom/indian_liver_patients/blob/master/Indian_liver_logistic.ipynb), and [neural network](https://github.com/worasom/indian_liver_patients/blob/master/Indian_liver_patients-NN.ipynb)
@@ -35,7 +37,7 @@ LinkedIn [page](https://www.linkedin.com/in/worasom/)
 
 ## Image Classifications 
 
-###  Identified oil palm plantations from satellite images [git repository](https://github.com/worasom/WiDS_Datathon_2019)
+**Identified oil palm plantations from satellite images[git repository](https://github.com/worasom/WiDS_Datathon_2019)**
 - Predicted how likely a satellite image contains oil palm plantations 
 -  Libraries: fastai, pytorch libraries, opencv 
 - Worked with Imbalance class: only 6% of the images belong to a second class (with oil palm). Solve by creating augmented images from the training set (OpenCV library)
@@ -43,22 +45,37 @@ LinkedIn [page](https://www.linkedin.com/in/worasom/)
 - Explored different CNN architectures: resnet34, resnext201, dn201 
 - Achieved 99.4% accuracy for the Kaggle hold out dataset (approximately #113 on the leaderboard)
 
-###  EiffelTower vs WatArun [git repository](https://github.com/worasom/EiffelTower_vs_WatArun)
+**EiffelTower vs WatArun[git repository](https://github.com/worasom/EiffelTower_vs_WatArun)**
 - Mined images from Google Images 
 - Performed dataloader and image augmentation in GPU (fastai, pytorch libraries)
 - Transferred learning using pretrained resnet weight 
 - Achieved 93% accuracy 
 
 ## Image Segmentation
-- Nuclei segmentation of stained tissue images of tumor patients in MICCAI2018 challenge[git repository](https://github.com/worasom/hist_images) 
+
+**Nuclei segmentation of stained tissue images of tumor patients in MICCAI2018 challenge[git repository](https://github.com/worasom/hist_images)**
 - Trained Unet architecture to perform image segmentation (fast.ai library). Use various image processing libraries (OpenCV, PIL, imageio, skimage)
 - Worked with small dataset. There were only 30 training images. Each has 1000 x 1000 pixels. Augmented training set by generating 125x125 images crop images and mask files
 - Achieved 90% accuracy on the validation set  
 
 # Courses Work
+
 - Data Scientist [Certificate](https://github.com/worasom/wora  som.github.io/blob/master/WK-certificates/Data%20Scientist%20with%20Python%20Track.pdf) from DataCamp.com: supervise learning, unsupervised learning, deep learning, convolution neutral network, importing and cleaning data in Python, pandas, database [certificate](https://github.com/worasom/worasom.github.io/blob/master/WK-certificates/SQL%20Fundamentals%20Track.pdf), SQL, PySpark, MongoDB, interactive data visualization with Bokeh and geopandas, statistical thinking in Python
 - Machine learning by fast.ai: random forest, feature importance, partial dependence, gradient descent, logistic regression, feature engineering, natural language processing, embedding 
 - Deep Learning by fast.ai: Image classification, SGD, multi-label, Segmentation, NLP, backprob, CNN, Resnet, U-net, GANs
 - Convolutional Neural Networks for Visual Recognition by Stanford University: image classification, localization and detection
 - CS109 Data Science by Harvard University: Web Scraping, Pandas, Exploratory Data Analysis, SQL, Statistical Models, Bias and Regression, machine learning models, clustering 
-- Class notes in [git repository]]https://github.com/worasom/class-projects
+- Class notes in [git repository]https://github.com/worasom/class-projects
+
+# Publications and Conferences 
+
+- **Memory Device**: Identify defect-dominance conduction behavior in resistive switching ZnO nanowire devices that could help improve growth process. Use non-linear fitting in MATLAB.  O. Srikimkaew, W. Kundhikanjana (Leader), et al., Journal of Electronics material (2019) 
+
+- **Ferroelectric Material**: Study effectiveness of Sm substitution in improving ferroelectric property, and reducing conductivity in bismuth ferrite ceramics. Identify an optimal doping level for ferroelectic device applications. Use image cross-correlation, curve fitting in python. P. Sriboriboon, W. Kundhikanjana (Leader), et al., Physics Letter A, (2019) 
+- **Biological study**: Study survival strategy of Arthrospira platensis (Spirulina) by shape transformation from spiral to rod shapes for effective food production.  A. Chaiyasitdhi, W. Kundhikanjana (COLeader), et al., PLoS ONE, (2018) 
+- **Strongly Correlated Oxides**: Design, and conduct imaging experiments to capture microscopic glassy behavior of a metallic phase in a perovskite manganite film. Cross-correlation analysis to register large sets of images (MATLAB). Image segmentation to calculate areal fraction of the metallic phase. W. Kundhikanjana (main author), et al, Physical Review Letters,  (2015) 
+- **Semiconductor material**: Failure analysis of a RAM device. Identify the cause of an unexpected surface implanted layer. Figure selected for cover page.  W. Kundhikanjana (main author), et al, Semiconductor Science and Technology (2013)  
+- **Microfabrication**: Failure analysis to help optimize microfabrication process of cantilever probes for commercial purpose. Resulted in a spin-off company (PrimeNano Inc). w Y. Yang, W. Kundhikanjana (co-author), et al, Journal of Micromechanics and Microengineering (2012)   
+- **Software**: Design automatic control and data acquisition software in LabVIEW for high-vacuum and low temperature scanning probe microscopy platform. Resulted in many follow up publication in high-impact journals. W. Kundhikanjana (main author), et al, Review of Scientific Instruments, (2011) 
+- **Hardware**: Design and implement calibration procedure for quantitative dielectric measurement with microwave microscopy technique.  K. Lai, W. Kundhikanjana (co-author), et al, Review of Scientific Instruments, (2009) 
+- **Simulation**: Finite element modeling of tip-sample interaction to understand the contrast mechanism of nanoscale microwave microscopy technique, which provides hard-to-obtain information for material developments. w K. Lai, W. Kundhikanjana (co-author), et al, Review of Scientific Instruments, (2008) 
