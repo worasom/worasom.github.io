@@ -1,5 +1,7 @@
 # Welcome to Worasom's Github Pages
 
+In this page, you will find my machine learning projects, and previous publications. If you have any suggestion, please leave me a message! 
+
 
 # About me
 
