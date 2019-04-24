@@ -29,7 +29,7 @@ LinkedIn [page](https://www.linkedin.com/in/worasom/)
 
 ## Health Data 
 
-**Automatic liver patients identification from their blood test data [git repository](https://github.com/worasom/indian_liver_patients)
+**Automatic liver patients identification from their blood test data [git repository](https://github.com/worasom/indian_liver_patients)**
 - Exploratory data analysis and feature engineering using Python (pandas, numpy, matplot. pyplotlib)
 - Feature selection from feature of importance. Remove redundant feature using hierarchical clustering (scipy library)
 - Applied different classification models.  Compare performance of [random forest](https://github.com/worasom/indian_liver_patients/blob/master/Indian_liver_patients_random_forest.ipynb), [logistic regression](https://github.com/worasom/indian_liver_patients/blob/master/Indian_liver_logistic.ipynb), and [neural network](https://github.com/worasom/indian_liver_patients/blob/master/Indian_liver_patients-NN.ipynb)
@@ -37,7 +37,7 @@ LinkedIn [page](https://www.linkedin.com/in/worasom/)
 
 ## Image Classifications 
 
-**Identified oil palm plantations from satellite images[git repository](https://github.com/worasom/WiDS_Datathon_2019)**
+**Identified oil palm plantations from satellite images [git repository](https://github.com/worasom/WiDS_Datathon_2019)**
 - Predicted how likely a satellite image contains oil palm plantations 
 -  Libraries: fastai, pytorch libraries, opencv 
 - Worked with Imbalance class: only 6% of the images belong to a second class (with oil palm). Solve by creating augmented images from the training set (OpenCV library)
@@ -45,7 +45,7 @@ LinkedIn [page](https://www.linkedin.com/in/worasom/)
 - Explored different CNN architectures: resnet34, resnext201, dn201 
 - Achieved 99.4% accuracy for the Kaggle hold out dataset (approximately #113 on the leaderboard)
 
-**EiffelTower vs WatArun[git repository](https://github.com/worasom/EiffelTower_vs_WatArun)**
+**EiffelTower vs WatArun [git repository](https://github.com/worasom/EiffelTower_vs_WatArun)**
 - Mined images from Google Images 
 - Performed dataloader and image augmentation in GPU (fastai, pytorch libraries)
 - Transferred learning using pretrained resnet weight 
@@ -75,19 +75,19 @@ LinkedIn [page](https://www.linkedin.com/in/worasom/)
 
 - **Biological study**: Studied survival strategy of Arthrospira platensis (Spirulina) by shape transformation from spiral to rod shapes for effective food production.  A. Chaiyasitdhi, **W. Kundhikanjana (CO-Leader)**, et al., PLoS ONE, (2018) 
 
-- **Strongly Correlated Oxides**: Designed, and conducted imaging experiments to capture microscopic glassy behavior of a metallic phase in a perovskite manganite film. Cross-correlation analysis to register large sets of images (MATLAB). Image segmentation to calculate areal fraction of the metallic phase. **W. Kundhikanjana (main author)**, et al, Physical Review Letters, (2015)[pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Direct%20Imaging%20of%20Dynamic%20Glassy%20Behavior%20in%20a%20Strained%20Manganite%20Film-2015.pdf)
+- **Strongly Correlated Oxides**: Designed, and conducted imaging experiments to capture microscopic glassy behavior of a metallic phase in a perovskite manganite film. Cross-correlation analysis to register large sets of images (MATLAB). Image segmentation to calculate areal fraction of the metallic phase. **W. Kundhikanjana (main author)**, et al, Physical Review Letters, (2015) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Direct%20Imaging%20of%20Dynamic%20Glassy%20Behavior%20in%20a%20Strained%20Manganite%20Film-2015.pdf)
 
 - **Semiconductor Material**: Failure analysis of a RAM device. Identify the cause of an unexpected surface implanted layer. Figure selected for cover page.  **W. Kundhikanjana (main author)**, et al, Semiconductor Science and Technology (2013)  
 
 - **Image Analysis**
- - Investiage nanoscale electronic properties in novel materials. Image analysis to understand statistical inference of the data. **W. Kundhikanjana (main author)**, Nano Letters, (2009) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Hierarchy%20of%20Electronic%20Properties%20of%20Chemically%20Derived%20and%20Pristine%20Graphene%20Probed%20by%20Microwave%20Imaging%202009.pdf)
- - Image segmentation and edge detection in (MATLAB). K. Lai, **W. Kundhikanjana (co-author)**, Physical Review Letters, (2011)[pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Imaging%20of%20Coulomb-Driven%20Quantum%20Hall%20Edge%20States-2011.pdf)
- - Use image autocorrelation to calculate correlation length.  K. Lai, **W. Kundhikanjana (co-author)**, Science, (2010)[pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Mesoscopic%20Percolating%20Resistance%20Network%20in%20a%20Strained%20Manganitethinfilm%20Science-2010-Lai-190-3.pdf)
+    - Investiage nanoscale electronic properties in novel materials. Image analysis to understand statistical inference of the data. **W. Kundhikanjana (main author)**, Nano Letters, (2009) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Hierarchy%20of%20Electronic%20Properties%20of%20Chemically%20Derived%20and%20Pristine%20Graphene%20Probed%20by%20Microwave%20Imaging%202009.pdf)
+    - Image segmentation and edge detection in (MATLAB). K. Lai, **W. Kundhikanjana (co-author)**, Physical Review Letters, (2011) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Imaging%20of%20Coulomb-Driven%20Quantum%20Hall%20Edge%20States-2011.pdf)
+    - Use image autocorrelation to calculate correlation length.  K. Lai, **W. Kundhikanjana (co-author)**, Science, (2010) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Mesoscopic%20Percolating%20Resistance%20Network%20in%20a%20Strained%20Manganitethinfilm%20Science-2010-Lai-190-3.pdf)
 
-- **Microfabrication**: Failure analysis to help optimize microfabrication process of cantilever probes for commercial purpose. Resulted in a spin-off company (PrimeNano Inc). Y. Yang, **W. Kundhikanjana (co-author)**, et al, Journal of Micromechanics and Microengineering (2012)[pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Batch-fabricated%20cantilever%20probes%20with%20electrical%20shielding%20for%20nanoscale%20dielectric%20and%20conductivity%20imaging-2012.pdf)   
+- **Microfabrication**: Failure analysis to help optimize microfabrication process of cantilever probes for commercial purpose. Resulted in a spin-off company (PrimeNano Inc). Y. Yang, **W. Kundhikanjana (co-author)**, et al, Journal of Micromechanics and Microengineering (2012) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Batch-fabricated%20cantilever%20probes%20with%20electrical%20shielding%20for%20nanoscale%20dielectric%20and%20conductivity%20imaging-2012.pdf)   
 
-- **Software**: Designed automatic control and data acquisition software in LabVIEW for high-vacuum and low temperature scanning probe microscopy platform. Resulted in many follow up publication in high-impact journals. **W. Kundhikanjana (main author)**, et al, Review of Scientific Instruments, (2011)[pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Cryogenic%20microwave%20imaging%20of%20metal%E2%80%93insulator%20transition%20in%20doped%20silicon_2011.pdf) 
+- **Software**: Designed automatic control and data acquisition software in LabVIEW for high-vacuum and low temperature scanning probe microscopy platform. Resulted in many follow up publication in high-impact journals. **W. Kundhikanjana (main author)**, et al, Review of Scientific Instruments, (2011) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Cryogenic%20microwave%20imaging%20of%20metal%E2%80%93insulator%20transition%20in%20doped%20silicon_2011.pdf) 
 
 - **Hardware**: Designed and implemented calibration procedure for quantitative dielectric measurement with microwave microscopy technique.  K. Lai, **W. Kundhikanjana (co-author)**, et al, Review of Scientific Instruments, (2009) 
 
-- **Simulation**: Developed microwave impedence microscopy technique. Finite element modeling of tip-sample interaction to understand the contrast mechanism of nanoscale microwave microscopy technique, which provides hard-to-obtain information for material developments. K. Lai, **W. Kundhikanjana (co-author)**, et al, Review of Scientific Instruments, (2008)[pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Calibration%20of%20shielded%20microwave%20probes%20using%20bulk%20dielectrics-2008.pdf)
+- **Simulation**: Developed microwave impedence microscopy technique. Finite element modeling of tip-sample interaction to understand the contrast mechanism of nanoscale microwave microscopy technique, which provides hard-to-obtain information for material developments. K. Lai, **W. Kundhikanjana (co-author)**, et al, Review of Scientific Instruments, (2008) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Calibration%20of%20shielded%20microwave%20probes%20using%20bulk%20dielectrics-2008.pdf)
