@@ -1,3 +1,4 @@
+# Welcome to Worasom Kundhikanjana's GitHub page
 ## About me
 
 I am aspriting data scientist with board range of technical experience in data science and material science. I am interestedin applications of machine learning (ML) in data inference, pattern identification, data driven decision-making, and deploying ML model. 
