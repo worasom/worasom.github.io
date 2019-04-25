@@ -1,7 +1,7 @@
 # Welcome to Worasom Kundhikanjana's GitHub page
 ## About me
 
-I am an aspriting data scientist with a board range of technical experience in data science and material science. I am interested in applications of machine learning (ML) in data inference, pattern identification, data driven decision-making, and model deployment. 
+I am an aspiring data scientist with a board range of technical experience in data science and material science. I am interested in applications of machine learning (ML) in data inference, pattern identification, data driven decision-making, and model deployment. 
 
 I was the Principal Investigator of a scanning probe microscopy group at Suranaree University of Technology, Thailand. My group focused on how nanoscale material properties give rise to the rich phenomena observed in mixed phase systems. We made extensive use of automated image and data processing techniques to analyze our large data sets, and to reveal the underlying physical mechanisms of the phenomena. Some topics investigated by my group include - the ferroelectric and diode behavior in Sm-doped BiFeO3, resistive switching behavior in ZnO nanowires, and the structure and biomechanics of Spirulina and avian sperm. We also collaborated with Western Digital Thailand on the development of novel materials for the memory storage industry.
 
