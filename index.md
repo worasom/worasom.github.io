@@ -56,7 +56,30 @@ LinkedIn [page](https://www.linkedin.com/in/worasom/)
 - Worked with small dataset. There were only 30 training images. Each has 1000 x 1000 pixels. Augmented training set by generating 125x125 cropped images and mask files
 - Achieved 90% accuracy on the validation set  
 
-# Courses Work [class notes/projects](https://github.com/worasom/class-projects)
+## Database: 
+
+- **MongoDB [notebook](https://github.com/worasom/database_projects/blob/master/MongoDB.ipynb)**: Query documents and subdocuments, Counting Documents, Survey Distinct Values with filters, element match operator, Filter with Regular Expressions, Indexes in MongoDB, aggregation 
+- **SQLite [notebook](https://github.com/worasom/database_projects/blob/master/SQL_datascience.ipynb)**: How to setup an SQLite server and populate tables, Insert, delete colums from the tables, Query the table and output as dataframe, Filter query using WHERE, AND, OR, IS NULL, LIKE, Aggregation using GROUP BY, ORDER BY, Create index, Joins
+
+
+# Blogs
+
+Scraping Air Pollution Data from Thailand EPA. Published in [Medium.com](https://medium.com/@worasom/scraping-air-pollution-data-from-thailand-epa-a866f291c06)  
+
+Identifying the Sources of Winter Air Pollution in Bangkok Part I. Published in [Medium.com](https://towardsdatascience.com/identifying-the-sources-of-winter-air-pollution-in-bangkok-part-i-d4392ea608dc)
+
+Identifying the Sources of Winter Air Pollution in Bangkok Part II. Published in [Medium.com](https://towardsdatascience.com/identifying-the-sources-of-winter-air-pollution-in-bangkok-part-ii-72539f9b767a)
+
+
+# Class Projects/Notes [repository](https://github.com/worasom/class-projects)
+
+- Data Visualization [notebook](https://github.com/worasom/class-projects/blob/master/data_vis.ipynb)
+- Interactive Visualization with Bokeh [notebook](https://github.com/worasom/class-projects/blob/master/bokeh_note.ipynb)
+- Time Series Analysis [notebook](https://github.com/worasom/class-projects/blob/master/time-series-anlysis.ipynb)
+- Machine Learning for Time Series Data in Python [notebook](https://github.com/worasom/class-projects/blob/master/ml4time_series.ipynb)
+
+
+# Courses Work 
 
 - Machine Learning 
     - Data Scientist [Certificate](https://github.com/worasom/wora  som.github.io/blob/master/WK-certificates/Data%20Scientist%20with%20Python%20Track.pdf) from DataCamp.com: supervise learning, unsupervised learning
@@ -70,15 +93,6 @@ LinkedIn [page](https://www.linkedin.com/in/worasom/)
 - Database: database from DataCamp.com [certificate](https://github.com/worasom/worasom.github.io/blob/master/WK-certificates/SQL%20Fundamentals%20Track.pdf), SQLite, Postgre, MongoDB
 
 - Other topics: pyspark, importing and cleaning data in Python, pandas, interactive data visualization with Bokeh and geopandas, statistical thinking in Python from DataCamp.com
-
-
-# Blogs
-
-Scraping Air Pollution Data from Thailand EPA. Published in [Medium.com](https://medium.com/@worasom/scraping-air-pollution-data-from-thailand-epa-a866f291c06)  
-
-Identifying the Sources of Winter Air Pollution in Bangkok Part I. Published in [Medium.com](https://towardsdatascience.com/identifying-the-sources-of-winter-air-pollution-in-bangkok-part-i-d4392ea608dc)
-
-Identifying the Sources of Winter Air Pollution in Bangkok Part II. Published in [Medium.com](https://towardsdatascience.com/identifying-the-sources-of-winter-air-pollution-in-bangkok-part-ii-72539f9b767a)
 
 
 # Publications and Conferences 
