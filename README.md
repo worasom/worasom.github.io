@@ -30,7 +30,7 @@ LinkedIn [page](https://www.linkedin.com/in/worasom/)
 
 ## Health Data 
 
-**Automatic liver patients identification from their blood test data [git repository](https://github.com/worasom/indian_liver_patients)**
+**Automatic liver patients identification from their blood test data [repository](https://github.com/worasom/indian_liver_patients)**
 - Exploratory data analysis and feature engineering using Python (pandas, numpy, matplot. pyplotlib)
 - Feature selection from feature of importance. Removed redundant features using hierarchical clustering (scipy library)
 - Applied different classification models.  Compared performance of [random forest](https://github.com/worasom/indian_liver_patients/blob/master/Indian_liver_patients_random_forest.ipynb), [logistic regression](https://github.com/worasom/indian_liver_patients/blob/master/Indian_liver_logistic.ipynb), and [neural network](https://github.com/worasom/indian_liver_patients/blob/master/Indian_liver_patients-NN.ipynb)
@@ -38,7 +38,7 @@ LinkedIn [page](https://www.linkedin.com/in/worasom/)
 
 ## Image Classifications 
 
-**Identified oil palm plantations from satellite images [git repository](https://github.com/worasom/WiDS_Datathon_2019)**
+**Identified oil palm plantations from satellite images [repository](https://github.com/worasom/WiDS_Datathon_2019)**
 - Predicted how likely a satellite image contains oil palm plantations 
 - Libraries: fastai, pytorch libraries, opencv 
 - Worked with Imbalance class: only 6% of the images belong to a second class (with oil palm). Resolved by creating augmented images from the training set (OpenCV library)
@@ -46,7 +46,7 @@ LinkedIn [page](https://www.linkedin.com/in/worasom/)
 - Explored different CNN architectures: resnet34, resnext201, dn201 
 - Achieved 99.4% accuracy for the Kaggle hold out dataset (approximately #113 on the leaderboard)
 
-**EiffelTower vs WatArun [git repository](https://github.com/worasom/EiffelTower_vs_WatArun)**
+**EiffelTower vs WatArun [repository](https://github.com/worasom/EiffelTower_vs_WatArun)**
 - Mined images from Google Images 
 - Performed dataloader and image augmentation in GPU (fastai, pytorch libraries)
 - Transferred learning using pretrained resnet weight 
@@ -54,7 +54,7 @@ LinkedIn [page](https://www.linkedin.com/in/worasom/)
 
 ## Image Segmentation
 
-**Nuclei segmentation of stained tissue images of tumor patients in MICCAI2018 challenge[git repository](https://github.com/worasom/hist_images)**
+**Nuclei segmentation of stained tissue images of tumor patients in MICCAI2018 challenge [repository](https://github.com/worasom/hist_images)**
 - Trained Unet architecture to perform image segmentation (fast.ai library). Used various image processing libraries (OpenCV, PIL, imageio, skimage)
 - Worked with small dataset. There were only 30 training images. Each has 1000 x 1000 pixels. Augmented training set by generating 125x125 cropped images and mask files
 - Achieved 90% accuracy on the validation set  
