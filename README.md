@@ -1,10 +1,10 @@
-# Welcome !
-
-In this page, you will find my machine learning projects, blogs, class notes, and previous publications. If you have any suggestion, please leave me a message!
+# Worasom Kundhikanjana's GitHub page
 
 Data science [resume](https://github.com/worasom/worasom.github.io/blob/master/WK-resume/Worasom_Kundhikanjana-data_science_resume.pdf) | 
 Hardware and data science [resume](https://github.com/worasom/worasom.github.io/blob/master/WK-resume/Worasom_Kundhikanjana-hardware_data_science_resume.pdf) |
 LinkedIn [page](https://www.linkedin.com/in/worasom/)
+
+In this page, you will find my machine learning projects, blogs, class notes, and previous publications. If you have any suggestion, please leave me a message!
 
 ## About me
 
