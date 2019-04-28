@@ -1,4 +1,4 @@
-# Welcome to Worasom Kundhikanjana's GitHub pageWelcome !
+# Welcome !
 
 In this page, you will find my machine learning projects, blogs, class notes, and previous publications. If you have any suggestion, please leave me a message!
 
