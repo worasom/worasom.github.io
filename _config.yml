@@ -1,10 +1,11 @@
-#theme: jekyll-theme-tactile
+theme: jekyll-theme-tactile
+#theme: minima
 title: Worasom Kundhikanjana's GitHub page
 #description:  
 author: worasom
 email:worasom@yahoo.com
 # Build settings
-theme: minima
+
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
