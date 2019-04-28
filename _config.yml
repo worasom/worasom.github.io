@@ -1,3 +1,21 @@
-theme: jekyll-theme-tactile
+#theme: jekyll-theme-tactile
 title: Worasom Kundhikanjana's GitHub page
 #description:  
+author: worasom
+email:worasom@yahoo.com
+# Build settings
+theme: minima
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.md
+
+description: > # this means to ignore newlines until "show_exerpts:"
+  In this page, you will find my machine learning projects, blogs, class notes, and previous publications. If you have any suggestion, please leave me a message!
+  
+show_excerpts: false # set to true to show excerpts on the homepage
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
