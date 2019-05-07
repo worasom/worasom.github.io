@@ -4,7 +4,21 @@ In this page, you will find my machine learning projects, blogs, class notes, an
 
 Data science [resume](https://github.com/worasom/worasom.github.io/blob/master/WK-resume/Worasom_Kundhikanjana-data_science_resume.pdf) | Hardware [resume](https://github.com/worasom/worasom.github.io/blob/master/WK-resume/Worasom_Kundhikanjana-hardware_data_science_resume.pdf)| [LinkedIn](https://www.linkedin.com/in/worasom/) | [Twitter](https://twitter.com/worasom)
 
-## About me
+# Table of Contents
+
+1. [About me](#about)
+2. [Machine Learning Projects](#ml)
+    - [Analysis of Air Pollution Data](#airpoll)
+    - [Health Data](#health)
+    - [Image Classifications](#imageclass)
+    - [Image Segmentation](#imageseg) 
+    - [Database](#database)
+3. [Blogs](#blogs)
+4. [Class Projects/Notes](#class)
+5. [Publications and Conferences](#publications) 
+
+
+# About me <a id='about'></a>
 
 I am an aspiring data scientist with a board range of technical experience in data science and material science. I am interested in applications of machine learning (ML) in data inference, pattern identification, data driven decision-making, and model deployment. 
 
@@ -12,13 +26,10 @@ I was the Principal Investigator of a scanning probe microscopy group at Suranar
 
 My PhD research focused on the development and applications of a scanning near-field microwave impedance microscope, a novel scanning probe technique capable of measuring the local dielectric constant and conductivity of materials. This technique allows us to study low temperature physics involving metal-to-insulator transitions such as colossal magnetoresistance and the quantum hall edge state. Applications at room temperature have also been shown in semiconductor materials, nanowires, and graphene. This research lies at the intersection of microwave engineering, image analysis, microfabrication, MEMS technology, material sciences, and condensed matter physics. I was involved with the commercialization process of this microscopy technique, through a spin-off company PrimeNano Inc.
 
-Data science [resume](https://github.com/worasom/worasom.github.io/blob/master/WK-resume/Worasom_Kundhikanjana-data_science_resume.pdf) | 
-Hardware and data science [resume](https://github.com/worasom/worasom.github.io/blob/master/WK-resume/Worasom_Kundhikanjana-hardware_data_science_resume.pdf) |
-LinkedIn [page](https://www.linkedin.com/in/worasom/)
 
-# Machine Learning Projects
+# Machine Learning Projects<a id='ml'></a>
 
-## Analysis of Air Pollution Data [git repository](https://github.com/worasom/aqi_thailand) 
+## Analysis of Air Pollution Data [git repository](https://github.com/worasom/aqi_thailand)<a id='airpoll'></a> 
 - Enabled effective environmental policy change by identifying main air pollutant sources.
 - Scraped weather and Bangkok air pollution data from NASA’s fire map, Berkeley Earth air pollution, and traffic data (Requests, wget, selenium, BeautifulSoup libraries) 
 - Created visualization of how the air pollution relates to geographical locations, agricultural burning, weather patterns (matplot.pyplotlib, Bokeh libraries)
@@ -30,7 +41,7 @@ LinkedIn [page](https://www.linkedin.com/in/worasom/)
 - Blog: Identifying the Sources of Winter Air Pollution in Bangkok Part I. Published in [Medium.com](https://towardsdatascience.com/identifying-the-sources-of-winter-air-pollution-in-bangkok-part-i-d4392ea608dc)
 - Blog: Identifying the Sources of Winter Air Pollution in Bangkok Part II. Published in [Medium.com](https://towardsdatascience.com/identifying-the-sources-of-winter-air-pollution-in-bangkok-part-ii-72539f9b767a)
 
-## Health Data 
+## Health Data<a id='health'></a> 
 
 **Automatic liver patients identification from their blood test data [repository](https://github.com/worasom/indian_liver_patients)**
 - Exploratory data analysis and feature engineering using Python (pandas, numpy, matplot. pyplotlib)
@@ -38,7 +49,7 @@ LinkedIn [page](https://www.linkedin.com/in/worasom/)
 - Applied different classification models.  Compared performance of [random forest](https://github.com/worasom/indian_liver_patients/blob/master/Indian_liver_patients_random_forest.ipynb), [logistic regression](https://github.com/worasom/indian_liver_patients/blob/master/Indian_liver_logistic.ipynb), and [neural network](https://github.com/worasom/indian_liver_patients/blob/master/Indian_liver_patients-NN.ipynb)
 - Achieved 78% accuracy on the validation set(baseline = 72%) , loss =  0.47(baseline 0.69)
 
-## Image Classifications 
+## Image Classifications<a id='imageclass'></a> 
 
 **Identified oil palm plantations from satellite images [repository](https://github.com/worasom/WiDS_Datathon_2019)**
 - Predicted how likely a satellite image contains oil palm plantations 
@@ -54,20 +65,20 @@ LinkedIn [page](https://www.linkedin.com/in/worasom/)
 - Transferred learning using pretrained resnet weight 
 - Achieved 93% accuracy 
 
-## Image Segmentation
+## Image Segmentation<a id='imageseg'></a>
 
 **Nuclei segmentation of stained tissue images of tumor patients in MICCAI2018 challenge [repository](https://github.com/worasom/hist_images)**
 - Trained Unet architecture to perform image segmentation (fast.ai library). Used various image processing libraries (OpenCV, PIL, imageio, skimage)
 - Worked with small dataset. There were only 30 training images. Each has 1000 x 1000 pixels. Augmented training set by generating 125x125 cropped images and mask files
 - Achieved 90% accuracy on the validation set  
 
-## Database: 
+## Database<a id='database'></a>: 
 
 - **MongoDB [notebook](https://github.com/worasom/database_projects/blob/master/MongoDB.ipynb)**: Query documents and subdocuments, Counting Documents, Survey Distinct Values with filters, element match operator, Filter with Regular Expressions, Indexes in MongoDB, aggregation 
 - **SQLite [notebook](https://github.com/worasom/database_projects/blob/master/SQL_datascience.ipynb)**: How to setup an SQLite server and populate tables, Insert, delete colums from the tables, Query the table and output as dataframe, Filter query using WHERE, AND, OR, IS NULL, LIKE, Aggregation using GROUP BY, ORDER BY, Create index, Joins
 
 
-# Blogs
+# Blogs<a id='blogs'></a>
 
 Scraping Air Pollution Data from Thailand EPA. Published in [Medium.com](https://medium.com/@worasom/scraping-air-pollution-data-from-thailand-epa-a866f291c06)  
 
@@ -76,7 +87,7 @@ Identifying the Sources of Winter Air Pollution in Bangkok Part I. Published in 
 Identifying the Sources of Winter Air Pollution in Bangkok Part II. Published in [Medium.com](https://towardsdatascience.com/identifying-the-sources-of-winter-air-pollution-in-bangkok-part-ii-72539f9b767a)
 
 
-# Class Projects/Notes [repository](https://github.com/worasom/class-projects)
+# Class Projects/Notes [repository](https://github.com/worasom/class-projects)<a id='class'></a>
 
 - Data Visualization [notebook](https://github.com/worasom/class-projects/blob/master/data_vis.ipynb)
 - Interactive Visualization with Bokeh [notebook](https://github.com/worasom/class-projects/blob/master/bokeh_note.ipynb)
@@ -84,7 +95,7 @@ Identifying the Sources of Winter Air Pollution in Bangkok Part II. Published in
 - Machine Learning for Time Series Data in Python [notebook](https://github.com/worasom/class-projects/blob/master/ml4time_series.ipynb)
 - A/B Testing: Analyzed data from the popular mobile game, Cookie Cats. Used bootstrap analysis to compare effectiveness of time pause at level 30 and 40 toward user retention [notebook](https://github.com/worasom/class-projects/blob/master/cookie_cats.ipynb)
 
-# Courses Work 
+# Courseworks<a id='courseworks'></a> 
 
 - Machine Learning 
     - Data Scientist [Certificate](https://github.com/worasom/wora  som.github.io/blob/master/WK-certificates/Data%20Scientist%20with%20Python%20Track.pdf)  and [Certificate](https://github.com/worasom/worasom.github.io/blob/master/WK-certificates/Machine%20Learning%20with%20Python%20Track.pdf)from DataCamp.com: supervise learning, unsupervised learning
@@ -99,7 +110,7 @@ Identifying the Sources of Winter Air Pollution in Bangkok Part II. Published in
 
 - Other topics: pyspark, importing and cleaning data in Python, pandas, interactive data visualization with Bokeh and geopandas, statistical thinking in Python from DataCamp.com
 
-# Publications and Conferences 
+# Publications and Conferences<a id='publications'></a> 
 
 - **Memory Device**: Identified defect-dominated conduction behavior in resistive switching ZnO nanowire devices that can improve the growth process. Used non-linear fitting in MATLAB.  O. Srikimkaew, **W. Kundhikanjana (Leader)**, et al., Journal of Electronics material (2019) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Size-Independent%20Unipolar%20and%20Bipolar%20Resistive%20Switching%20Behaviors%20in%20ZnO%20Nanowires.pdf) 
 
