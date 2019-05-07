@@ -21,5 +21,8 @@ plugins:
  - jekyll-feed
  - jekyll-seo-tag
 
-#github:
-#  repository_url: https://github.com/worasom
+github:
+  repository_url: https://github.com/worasom
+  resume1_url: https://github.com/worasom/worasom.github.io/blob/master/WK-resume/Worasom_Kundhikanjana-data_science_resume.pdf
+  resume2_url: https://github.com/worasom/worasom.github.io/blob/master/WK-resume/Worasom_Kundhikanjana-hardware_data_science_resume.pdf
+  resume3_url: https://www.linkedin.com/in/worasom/
