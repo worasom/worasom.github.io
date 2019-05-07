@@ -14,7 +14,7 @@ email: worasom@yahoo.com
 # - about.md
 
 description: > # this means to ignore newlines until "show_exerpts:"
- In this page, you will find my machine learning projects, blogs, class notes, and previous publications. If you have any suggestion, please leave me a message!
+ In this page, you will find my projects, blogs, class notes, and  publications. 
   
 show_excerpts: false # set to true to show excerpts on the homepage
 
