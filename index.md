@@ -2,8 +2,6 @@
 layout: default
 ---
 
-Data science [resume](https://github.com/worasom/worasom.github.io/blob/master/WK-resume/Worasom_Kundhikanjana-data_science_resume.pdf) | Hardware [resume](https://github.com/worasom/worasom.github.io/blob/master/WK-resume/Worasom_Kundhikanjana-hardware_data_science_resume.pdf)| [LinkedIn](https://www.linkedin.com/in/worasom/) | [Twitter](https://twitter.com/worasom)
-
 # Table of Contents
 
 1. [About me](#about)
