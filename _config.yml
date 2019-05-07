@@ -2,11 +2,10 @@ theme: jekyll-theme-leap-day
 #theme: jekyll-theme-tactile
 #theme: minima
 title: Worasom Kundhikanjana's GitHub page
-#description:  
-author: worasom
+ author: worasom
 email: worasom@yahoo.com
+show_downloads: true
 # Build settings
-
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
@@ -21,3 +20,6 @@ show_excerpts: false # set to true to show excerpts on the homepage
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
+
+#github:
+#  repository_url: https://github.com/worasom
