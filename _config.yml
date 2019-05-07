@@ -1,4 +1,5 @@
-theme: jekyll-theme-tactile
+theme: jekyll-theme-leap-day
+#theme: jekyll-theme-tactile
 #theme: minima
 title: Worasom Kundhikanjana's GitHub page
 #description:  
@@ -12,8 +13,8 @@ email: worasom@yahoo.com
 #header_pages:
 # - about.md
 
-#description: > # this means to ignore newlines until "show_exerpts:"
-#  In this page, you will find my machine learning projects, blogs, class notes, and previous #publications. If you have any suggestion, please leave me a message!
+description: > # this means to ignore newlines until "show_exerpts:"
+ In this page, you will find my machine learning projects, blogs, class notes, and previous publications. If you have any suggestion, please leave me a message!
   
 show_excerpts: false # set to true to show excerpts on the homepage
 
