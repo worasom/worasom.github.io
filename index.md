@@ -56,12 +56,13 @@ My PhD research focused on the development and applications of a scanning near-f
 - Worked with Imbalance class: only 6% of the images belong to a second class (with oil palm). Resolved by creating augmented images from the training set (OpenCV library)
 - Used transferred learning from pretrained models 
 - Explored different CNN architectures: resnet34, resnext201, dn201 
-- Achieved 99.4% accuracy for the Kaggle hold out dataset (approximately #113 on the leaderboard)
+- Achieved 0.997 score for the Kaggle hold out dataset (leader board score is 0.999), which is approximately #113 on the leaderboard.
 
 **EiffelTower vs WatArun [repository](https://github.com/worasom/EiffelTower_vs_WatArun)**
 - Mined images from Google Images 
 - Performed dataloader and image augmentation in GPU (fastai, pytorch libraries)
 - Transferred learning using pretrained resnet weight 
+- Used learning rate annealing with restart
 - Achieved 93% accuracy 
 
 ## Image Segmentation<a id='imageseg'></a>
