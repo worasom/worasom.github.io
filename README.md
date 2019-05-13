@@ -90,6 +90,9 @@ Identifying the Sources of Winter Air Pollution in Bangkok Part II. Published in
 
 # Class Projects/Notes [repository](https://github.com/worasom/class-projects)<a id='class'></a>
 
+- Deep Learning [notebook](https://github.com/worasom/class-projects/blob/master/DL_keras.ipynb)
+- Unsupervised Learning in Python [notebook](https://github.com/worasom/class-projects/blob/master/unsupervised_learning.ipynb)
+- Fraud Detection in Python [notebook] [notebook](https://github.com/worasom/class-projects/blob/master/fraud_detection.ipynb)
 - Data Visualization [notebook](https://github.com/worasom/class-projects/blob/master/data_vis.ipynb)
 - Interactive Visualization with Bokeh [notebook](https://github.com/worasom/class-projects/blob/master/bokeh_note.ipynb)
 - Time Series Analysis [notebook](https://github.com/worasom/class-projects/blob/master/time-series-anlysis.ipynb)
@@ -99,7 +102,7 @@ Identifying the Sources of Winter Air Pollution in Bangkok Part II. Published in
 # Courseworks<a id='courseworks'></a> 
 
 - Machine Learning 
-    - Data Scientist [Certificate](https://github.com/worasom/wora  som.github.io/blob/master/WK-certificates/Data%20Scientist%20with%20Python%20Track.pdf)  and [Certificate](https://github.com/worasom/worasom.github.io/blob/master/WK-certificates/Machine%20Learning%20with%20Python%20Track.pdf)from DataCamp.com: supervise learning, unsupervised learning
+    - Data Scientist [Certificate](https://github.com/worasom/wora  som.github.io/blob/master/WK-certificates/Data%20Scientist%20with%20Python%20Track.pdf)  and [Certificate](https://github.com/worasom/worasom.github.io/blob/master/WK-certificates/Machine%20Learning%20with%20Python%20Track.pdf)from DataCamp.com: supervise learning, unsupervised learning, Fraud Detection [Certificate](https://github.com/worasom/worasom.github.io/blob/master/WK-certificates/Fraud%20Detection%20in%20Python.pdf)
     - Machine learning by fast.ai: random forest, feature of importance, partial dependence, gradient descent, logistic regression, feature engineering, natural language processing, embedding
     - CS109 Data Science by Harvard University: Web Scraping, Pandas, Exploratory Data Analysis, SQL, Statistical Models, Bias and Regression, machine learning models, clustering 
   
