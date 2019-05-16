@@ -9,18 +9,18 @@ Data science [resume](https://github.com/worasom/worasom.github.io/blob/master/W
 1. [About me](#about)
 2. [Machine Learning Projects](#ml)
     - [Analysis of Air Pollution Data](#airpoll)
-    - [Health Data](#health)
+    - [Patient Classifation using Health Data](#health)
     - [Image Classifications](#imageclass)
-    - [Image Segmentation](#imageseg) 
-    - [Database](#database)
-3. [Blogs](#blogs)
-4. [Reserach Projects and Publications](#publications) 
-   - [Study Novel Materials](#material) 
-   - [Image Analysis](#image)
+    - [Image Segmentation](#imageseg)
+    - [Database](#database): MongoDB, SQLite
+3. [Reserach Projects and Publications](#publications) 
+   - [Study Novel Materials](#material): Memory Devices, Ferroelectric Material,Biological study, Strongly Correlated Oxides, Semiconductor Materials
+   - [Image Analysis](#image): Image analysis, Image segmentation, Image correlation
    - [Microfabrication](#microfab)
-   - [Software](#software)
-   - [Hardware](#hardware)
-   - [Simulation](#simulation)
+   - [Software](#software): Designed automatic control and data acquisition software in LabVIEW
+   - [Hardware](#hardware): Development of Microwave Impedance Microscopy
+   - [Simulation](#simulation): Finite Element Modeling(FEA)
+4. [Blogs](#blogs)
 5. [Class Projects/Notes](#class)
 6. [Courseworks](#courseworks)
 
@@ -31,7 +31,7 @@ I am an aspiring data scientist with a board range of technical experience in da
 
 I was the Principal Investigator of a scanning probe microscopy group at Suranaree University of Technology, Thailand. My group focused on how nanoscale material properties give rise to the rich phenomena observed in mixed phase systems. We made extensive use of automated image and data processing techniques to analyze our large data sets, and to reveal the underlying physical mechanisms of the phenomena. Some topics investigated by my group include - the ferroelectric and diode behavior in Sm-doped BiFeO3, resistive switching behavior in ZnO nanowires, and the structure and biomechanics of Spirulina and avian sperm. We also collaborated with Western Digital Thailand on the development of novel materials for the memory storage industry.
 
-My PhD research focused on the development and applications of a scanning near-field microwave impedance microscope, a novel scanning probe technique capable of measuring the local dielectric constant and conductivity of materials. This technique allows us to study low temperature physics involving metal-to-insulator transitions such as colossal magnetoresistance and the quantum hall edge state. Applications at room temperature have also been shown in semiconductor materials, nanowires, and graphene. This research lies at the intersection of microwave engineering, image analysis, microfabrication, MEMS technology, material sciences, and condensed matter physics. I was involved with the commercialization process of this microscopy technique, through a spin-off company PrimeNano Inc.
+My PhD research focused on the development and applications of a scanning near-field microwave impedance microscope, a novel scanning probe technique capable of measuring the local dielectric constant and conductivity of materials. This technique allows us to study low temperature physics involving metal-to-insulator transitions such as colossal magnetoresistance and the quantum hall edge state. Applications at room temperature have also been shown in semiconductor materials, nanowires, and graphene. This research lies at the intersection of microwave engineering, image analysis, microfabrication, MEMS technology, material sciences, and condensed matter physics. I was involved with the commercialization process of this microscopy technique, through a spin-off company [PrimeNano Inc](https://www.primenanoinc.com/).
 
 
 # Machine Learning Projects<a id='ml'></a>
@@ -120,14 +120,14 @@ Identifying the Sources of Winter Air Pollution in Bangkok Part II. Published in
 
 ## Microfabrication<a id='microfab'></a>
 
-Failure analysis to help optimize microfabrication process of cantilever probes for commercial purpose. Resulted in a spin-off company (PrimeNano Inc). Y. Yang, **W. Kundhikanjana (co-author)**, et al, Journal of Micromechanics and Microengineering (2012) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Batch-fabricated%20cantilever%20probes%20with%20electrical%20shielding%20for%20nanoscale%20dielectric%20and%20conductivity%20imaging-2012.pdf), Y. Yang, **W. Kundhikanjana (co-author)**, Journal of Micromechanics and Microengineering (2014)[pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Shielded%20piezoresistive%20cantilever%20probes%20fornanoscaletopography%20and%20electrical%20imaging.pdf), Y. Yang, **W. Kundhikanjana (co-author)**, MEMS  (2011)[pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/A%20SHIELDED%20CANTILEVER-TIP%20MICROWAVE%20PROBE%20FOR%20MICRO_NANO%20SURFACE%20IMAGING%20OF%20CONDUCTIVE%20PROPERTIES%202011.pdf), and  A.J. Haemmerli, **W. Kundhikanjana (co-author)**, MEMS  (2012) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Low-impedance%20shielded%20tip%20piezoresistive%20probe%20enables%20portable%20microwave%20impedance%20microscopy-2012.pdf)
+Failure analysis to help optimize microfabrication process of cantilever probes for commercial purpose. Resulted in a spin-off company (PrimeNano Inc). Y. Yang, **W. Kundhikanjana (co-author)**, et al, Journal of Micromechanics and Microengineering (2012) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Batch-fabricated%20cantilever%20probes%20with%20electrical%20shielding%20for%20nanoscale%20dielectric%20and%20conductivity%20imaging-2012.pdf), Y. Yang, **W. Kundhikanjana (co-author)**, Journal of Micromechanics and Microengineering (2014) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Shielded%20piezoresistive%20cantilever%20probes%20fornanoscaletopography%20and%20electrical%20imaging.pdf), Y. Yang, **W. Kundhikanjana (co-author)**, MEMS  (2011) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/A%20SHIELDED%20CANTILEVER-TIP%20MICROWAVE%20PROBE%20FOR%20MICRO_NANO%20SURFACE%20IMAGING%20OF%20CONDUCTIVE%20PROPERTIES%202011.pdf), and  A.J. Haemmerli, **W. Kundhikanjana (co-author)**, MEMS  (2012) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Low-impedance%20shielded%20tip%20piezoresistive%20probe%20enables%20portable%20microwave%20impedance%20microscopy-2012.pdf)
 
 ## Software<a id='software'></a>
 Designed automatic control and data acquisition software in LabVIEW for high-vacuum and low temperature scanning probe microscopy platform. Resulted in many follow up publication in high-impact journals. **W. Kundhikanjana (main author)**, et al, Review of Scientific Instruments, (2011) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Cryogenic%20microwave%20imaging%20of%20metal%E2%80%93insulator%20transition%20in%20doped%20silicon_2011.pdf) 
 
 ## Hardware<a id='hardware'></a>
 - Designed and implemented calibration procedure for quantitative dielectric measurement with microwave microscopy technique.  K. Lai, **W. Kundhikanjana (co-author)**, et al, Review of Scientific Instruments, (2009) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Calibration%20of%20shielded%20microwave%20probes%20using%20bulk%20dielectrics-2008.pdf) and K. Lai, **W. Kundhikanjana (co-author)**, et al, Review of Scientific Instruments, (2009) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Tapping%20mode%20microwave%20impedance%20microscopy-2009.pdf)
-- Explored applications and provided show cases for the invented microscopy technique. K. Lai, **W. Kundhikanjana (co-author)**, Nano Letter, (2009) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Nanoscale%20Electronic%20Inhomogeneity%20in%20In2Se3%20Nanoribbons%20Revealed%20by%20Microwave%20Impedance%20Microscopy-2009.pdf), S.-S.Hong, **W. Kundhikanjana (co-author)**, Nano Letter, (2010)[pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Ultrathin%20Topological%20Insulator%20Bi2Se3%20Nanoribbons%20Exfoliated%20by%20Atomic%20Force%20Microscopy_2010.pdf), E.Y. Ma, **W. Kundhikanjana (co-author)**, Nature Communication, (2015)[pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Unexpected%20edge%20conduction%20in%20mercury%20telluride%20quantum%20wells%20under%20broken%20time-reversal%20symmetry-2015.pdf)
+- Explored applications and provided show cases for the invented microscopy technique. K. Lai, **W. Kundhikanjana (co-author)**, Nano Letter, (2009) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Nanoscale%20Electronic%20Inhomogeneity%20in%20In2Se3%20Nanoribbons%20Revealed%20by%20Microwave%20Impedance%20Microscopy-2009.pdf), S.-S.Hong, **W. Kundhikanjana (co-author)**, Nano Letter, (2010) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Ultrathin%20Topological%20Insulator%20Bi2Se3%20Nanoribbons%20Exfoliated%20by%20Atomic%20Force%20Microscopy_2010.pdf), E.Y. Ma, **W. Kundhikanjana (co-author)**, Nature Communication, (2015) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Unexpected%20edge%20conduction%20in%20mercury%20telluride%20quantum%20wells%20under%20broken%20time-reversal%20symmetry-2015.pdf)
 
 ## Simulation<a id='simulation'></a>
 
