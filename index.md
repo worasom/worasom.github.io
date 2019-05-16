@@ -12,9 +12,15 @@ layout: default
     - [Image Segmentation](#imageseg) 
     - [Database](#database)
 3. [Blogs](#blogs)
-4. [Class Projects/Notes](#class)
-5. [Publications and Conferences](#publications) 
-
+4. [Reserach Projects and Publications](#publications) 
+   - [Study Novel Materials](#material) 
+   - [Image Analysis](#image)
+   - [Microfabrication](#microfab)
+   - [Software](#software)
+   - [Hardware](#hardware)
+   - [Simulation](#simulation)
+5. [Class Projects/Notes](#class)
+6. [Courseworks](#courseworks)
 
 
 # About me <a id='about'></a>
@@ -63,7 +69,7 @@ My PhD research focused on the development and applications of a scanning near-f
 - Performed dataloader and image augmentation in GPU (fastai, pytorch libraries)
 - Transferred learning using pretrained resnet weight 
 - Used learning rate annealing with restart
-- Achieved 93% accuracy 
+- Achieved 93% accuracy  
 
 ## Image Segmentation<a id='imageseg'></a>
 
@@ -87,33 +93,10 @@ Identifying the Sources of Winter Air Pollution in Bangkok Part I. Published in 
 Identifying the Sources of Winter Air Pollution in Bangkok Part II. Published in [Medium.com](https://towardsdatascience.com/identifying-the-sources-of-winter-air-pollution-in-bangkok-part-ii-72539f9b767a)
 
 
-# Class Projects/Notes [repository](https://github.com/worasom/class-projects)<a id='class'></a>
 
-- Deep Learning [notebook](https://github.com/worasom/class-projects/blob/master/DL_keras.ipynb)
-- Unsupervised Learning in Python [notebook](https://github.com/worasom/class-projects/blob/master/unsupervised_learning.ipynb)
-- Fraud Detection in Python [notebook] [notebook](https://github.com/worasom/class-projects/blob/master/fraud_detection.ipynb)
-- Data Visualization [notebook](https://github.com/worasom/class-projects/blob/master/data_vis.ipynb)
-- Interactive Visualization with Bokeh [notebook](https://github.com/worasom/class-projects/blob/master/bokeh_note.ipynb)
-- Time Series Analysis [notebook](https://github.com/worasom/class-projects/blob/master/time-series-anlysis.ipynb)
-- Machine Learning for Time Series Data in Python [notebook](https://github.com/worasom/class-projects/blob/master/ml4time_series.ipynb)
-- A/B Testing: Analyzed data from the popular mobile game, Cookie Cats. Used bootstrap analysis to compare effectiveness of time pause at level 30 and 40 toward user retention [notebook](https://github.com/worasom/class-projects/blob/master/cookie_cats.ipynb)
+# Reserach Projects and Publications<a id='publications'></a> 
 
-# Courseworks<a id='courseworks'></a> 
-
-- Machine Learning 
-    - Data Scientist [Certificate](https://github.com/worasom/wora  som.github.io/blob/master/WK-certificates/Data%20Scientist%20with%20Python%20Track.pdf)  and [Certificate](https://github.com/worasom/worasom.github.io/blob/master/WK-certificates/Machine%20Learning%20with%20Python%20Track.pdf)from DataCamp.com: supervise learning, unsupervised learning, Fraud Detection [Certificate](https://github.com/worasom/worasom.github.io/blob/master/WK-certificates/Fraud%20Detection%20in%20Python.pdf) 
-    - Machine learning by fast.ai: random forest, feature of importance, partial dependence, gradient descent, logistic regression, feature engineering, natural language processing, embedding
-    - CS109 Data Science by Harvard University: Web Scraping, Pandas, Exploratory Data Analysis, SQL, Statistical Models, Bias and Regression, machine learning models, clustering 
-  
-- Deep Learning
-    - Deep Learning by fast.ai: Image classification, SGD, multi-label, Segmentation, NLP, backprob, CNN, Resnet, U-net, GANs
-    - Convolutional Neural Networks for Visual Recognition by Stanford University: image classification, localization and detection
-
-- Database: database from DataCamp.com [certificate](https://github.com/worasom/worasom.github.io/blob/master/WK-certificates/SQL%20Fundamentals%20Track.pdf), SQLite, Postgre, MongoDB
-
-- Other topics: pyspark, importing and cleaning data in Python, pandas, interactive data visualization with Bokeh and geopandas, statistical thinking in Python from DataCamp.com
-
-# Publications and Conferences<a id='publications'></a> 
+## Study Novel Materials<a id='material'></a> 
 
 - **Memory Device**: Identified defect-dominated conduction behavior in resistive switching ZnO nanowire devices that can improve the growth process. Used non-linear fitting in MATLAB.  O. Srikimkaew, **W. Kundhikanjana (Leader)**, et al., Journal of Electronics material (2019) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Size-Independent%20Unipolar%20and%20Bipolar%20Resistive%20Switching%20Behaviors%20in%20ZnO%20Nanowires.pdf) 
 
@@ -127,17 +110,51 @@ Identifying the Sources of Winter Air Pollution in Bangkok Part II. Published in
 
 - **Semiconductor Material**: Failure analysis of a RAM device. Identified the cause of an unexpected surface implanted layer. Figure selected for Journal cover page.  **W. Kundhikanjana (main author)**, et al, Semiconductor Science and Technology (2013)  
 
-- **Image Analysis**
-     - Investigated nanoscale electronic properties in novel materials. Image analysis to understand statistical inference of the data. **W. Kundhikanjana (main author)**, Nano Letters, (2009) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Hierarchy%20of%20Electronic%20Properties%20of%20Chemically%20Derived%20and%20Pristine%20Graphene%20Probed%20by%20Microwave%20Imaging%202009.pdf)
-     - Image segmentation and edge detection in (MATLAB). K. Lai, **W. Kundhikanjana (co-author)**, Physical Review Letters, (2011) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Imaging%20of%20Coulomb-Driven%20Quantum%20Hall%20Edge%20States-2011.pdf)
-     - Used image autocorrelation to calculate correlation length (MATLAB).  K. Lai, **W. Kundhikanjana (co-author)**, Science, (2010) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Mesoscopic%20Percolating%20Resistance%20Network%20in%20a%20Strained%20Manganitethinfilm%20Science-2010-Lai-190-3.pdf) and [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Ultrathin%20Topological%20Insulator%20Bi2Se3%20Nanoribbons%20Exfoliated%20by%20Atomic%20Force%20Microscopy_2010.pdf)
+## Image Analysis<a id='image'></a>
+     
+- Investigated nanoscale electronic properties in novel materials. Image analysis to understand statistical inference of the data. **W. Kundhikanjana (main author)**, Nano Letters, (2009) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Hierarchy%20of%20Electronic%20Properties%20of%20Chemically%20Derived%20and%20Pristine%20Graphene%20Probed%20by%20Microwave%20Imaging%202009.pdf)
+- Image segmentation and edge detection in (MATLAB). K. Lai, **W. Kundhikanjana (co-author)**, Physical Review Letters, (2011) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Imaging%20of%20Coulomb-Driven%20Quantum%20Hall%20Edge%20States-2011.pdf)
+- Used image autocorrelation to calculate correlation length (MATLAB).  K. Lai, **W. Kundhikanjana (co-author)**, Science, (2010) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Mesoscopic%20Percolating%20Resistance%20Network%20in%20a%20Strained%20Manganitethinfilm%20Science-2010-Lai-190-3.pdf) and [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Ultrathin%20Topological%20Insulator%20Bi2Se3%20Nanoribbons%20Exfoliated%20by%20Atomic%20Force%20Microscopy_2010.pdf)
 
-- **Microfabrication**: Failure analysis to help optimize microfabrication process of cantilever probes for commercial purpose. Resulted in a spin-off company (PrimeNano Inc). Y. Yang, **W. Kundhikanjana (co-author)**, et al, Journal of Micromechanics and Microengineering (2012) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Batch-fabricated%20cantilever%20probes%20with%20electrical%20shielding%20for%20nanoscale%20dielectric%20and%20conductivity%20imaging-2012.pdf), Y. Yang, **W. Kundhikanjana (co-author)**, Journal of Micromechanics and Microengineering (2014)[pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Shielded%20piezoresistive%20cantilever%20probes%20fornanoscaletopography%20and%20electrical%20imaging.pdf), Y. Yang, **W. Kundhikanjana (co-author)**, MEMS  (2011)[pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/A%20SHIELDED%20CANTILEVER-TIP%20MICROWAVE%20PROBE%20FOR%20MICRO_NANO%20SURFACE%20IMAGING%20OF%20CONDUCTIVE%20PROPERTIES%202011.pdf), and  A.J. Haemmerli, **W. Kundhikanjana (co-author)**, MEMS  (2012) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Low-impedance%20shielded%20tip%20piezoresistive%20probe%20enables%20portable%20microwave%20impedance%20microscopy-2012.pdf)
+## Microfabrication<a id='microfab'></a>
 
-- **Software**: Designed automatic control and data acquisition software in LabVIEW for high-vacuum and low temperature scanning probe microscopy platform. Resulted in many follow up publication in high-impact journals. **W. Kundhikanjana (main author)**, et al, Review of Scientific Instruments, (2011) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Cryogenic%20microwave%20imaging%20of%20metal%E2%80%93insulator%20transition%20in%20doped%20silicon_2011.pdf) 
+Failure analysis to help optimize microfabrication process of cantilever probes for commercial purpose. Resulted in a spin-off company (PrimeNano Inc). Y. Yang, **W. Kundhikanjana (co-author)**, et al, Journal of Micromechanics and Microengineering (2012) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Batch-fabricated%20cantilever%20probes%20with%20electrical%20shielding%20for%20nanoscale%20dielectric%20and%20conductivity%20imaging-2012.pdf), Y. Yang, **W. Kundhikanjana (co-author)**, Journal of Micromechanics and Microengineering (2014)[pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Shielded%20piezoresistive%20cantilever%20probes%20fornanoscaletopography%20and%20electrical%20imaging.pdf), Y. Yang, **W. Kundhikanjana (co-author)**, MEMS  (2011)[pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/A%20SHIELDED%20CANTILEVER-TIP%20MICROWAVE%20PROBE%20FOR%20MICRO_NANO%20SURFACE%20IMAGING%20OF%20CONDUCTIVE%20PROPERTIES%202011.pdf), and  A.J. Haemmerli, **W. Kundhikanjana (co-author)**, MEMS  (2012) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Low-impedance%20shielded%20tip%20piezoresistive%20probe%20enables%20portable%20microwave%20impedance%20microscopy-2012.pdf)
 
-- **Hardware**
-     - Designed and implemented calibration procedure for quantitative dielectric measurement with microwave microscopy technique.  K. Lai, **W. Kundhikanjana (co-author)**, et al, Review of Scientific Instruments, (2009) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Calibration%20of%20shielded%20microwave%20probes%20using%20bulk%20dielectrics-2008.pdf) and K. Lai, **W. Kundhikanjana (co-author)**, et al, Review of Scientific Instruments, (2009) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Tapping%20mode%20microwave%20impedance%20microscopy-2009.pdf)
-     - Explored applications and provided show cases for the invented microscopy technique. K. Lai, **W. Kundhikanjana (co-author)**, Nano Letter, (2009) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Nanoscale%20Electronic%20Inhomogeneity%20in%20In2Se3%20Nanoribbons%20Revealed%20by%20Microwave%20Impedance%20Microscopy-2009.pdf), S.-S.Hong, **W. Kundhikanjana (co-author)**, Nano Letter, (2010)[pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Ultrathin%20Topological%20Insulator%20Bi2Se3%20Nanoribbons%20Exfoliated%20by%20Atomic%20Force%20Microscopy_2010.pdf), E.Y. Ma, **W. Kundhikanjana (co-author)**, Nature Communication, (2015)[pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Unexpected%20edge%20conduction%20in%20mercury%20telluride%20quantum%20wells%20under%20broken%20time-reversal%20symmetry-2015.pdf)
+## Software<a id='software'></a>
+Designed automatic control and data acquisition software in LabVIEW for high-vacuum and low temperature scanning probe microscopy platform. Resulted in many follow up publication in high-impact journals. **W. Kundhikanjana (main author)**, et al, Review of Scientific Instruments, (2011) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Cryogenic%20microwave%20imaging%20of%20metal%E2%80%93insulator%20transition%20in%20doped%20silicon_2011.pdf) 
 
-- **Simulation**: Developed microwave impedence microscopy technique. Finite element modeling of tip-sample interaction (COMSOL) to understand the contrast mechanism of nanoscale microwave microscopy technique, which provides hard-to-obtain information for material development. K. Lai, **W. Kundhikanjana (co-author)**, et al, Review of Scientific Instruments, (2008) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Calibration%20of%20shielded%20microwave%20probes%20using%20bulk%20dielectrics-2008.pdf), K. Lai, **W. Kundhikanjana (co-author)**, Applied Nanoscience, (2011) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Nanoscale%20microwave%20microscopy%20using%20shielded%20cantilever%20probes-2011.pdf)
+## Hardware<a id='hardware'></a>
+- Designed and implemented calibration procedure for quantitative dielectric measurement with microwave microscopy technique.  K. Lai, **W. Kundhikanjana (co-author)**, et al, Review of Scientific Instruments, (2009) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Calibration%20of%20shielded%20microwave%20probes%20using%20bulk%20dielectrics-2008.pdf) and K. Lai, **W. Kundhikanjana (co-author)**, et al, Review of Scientific Instruments, (2009) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Tapping%20mode%20microwave%20impedance%20microscopy-2009.pdf)
+- Explored applications and provided show cases for the invented microscopy technique. K. Lai, **W. Kundhikanjana (co-author)**, Nano Letter, (2009) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Nanoscale%20Electronic%20Inhomogeneity%20in%20In2Se3%20Nanoribbons%20Revealed%20by%20Microwave%20Impedance%20Microscopy-2009.pdf), S.-S.Hong, **W. Kundhikanjana (co-author)**, Nano Letter, (2010)[pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Ultrathin%20Topological%20Insulator%20Bi2Se3%20Nanoribbons%20Exfoliated%20by%20Atomic%20Force%20Microscopy_2010.pdf), E.Y. Ma, **W. Kundhikanjana (co-author)**, Nature Communication, (2015)[pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Unexpected%20edge%20conduction%20in%20mercury%20telluride%20quantum%20wells%20under%20broken%20time-reversal%20symmetry-2015.pdf)
+
+## Simulation<a id='simulation'></a>
+
+Developed microwave impedence microscopy technique. Finite element modeling(FEA) of tip-sample interaction(COMSOL) to understand the contrast mechanism of nanoscale microwave microscopy technique, which provides hard-to-obtain information for material development. K. Lai, **W. Kundhikanjana (co-author)**, et al, Review of Scientific Instruments, (2008) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Calibration%20of%20shielded%20microwave%20probes%20using%20bulk%20dielectrics-2008.pdf), K. Lai, **W. Kundhikanjana (co-author)**, Applied Nanoscience, (2011) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Nanoscale%20microwave%20microscopy%20using%20shielded%20cantilever%20probes-2011.pdf)
+
+
+# Class Projects/Notes [repository](https://github.com/worasom/class-projects)<a id='class'></a>
+
+- Deep Learning [notebook](https://github.com/worasom/class-projects/blob/master/DL_keras.ipynb)
+- Unsupervised Learning in Python [notebook](https://github.com/worasom/class-projects/blob/master/unsupervised_learning.ipynb)
+- Fraud Detection in Python [notebook] [notebook](https://github.com/worasom/class-projects/blob/master/fraud_detection.ipynb)
+- Data Visualization [notebook](https://github.com/worasom/class-projects/blob/master/data_vis.ipynb)
+- Interactive Visualization with Bokeh [notebook](https://github.com/worasom/class-projects/blob/master/bokeh_note.ipynb)
+- Time Series Analysis [notebook](https://github.com/worasom/class-projects/blob/master/time-series-anlysis.ipynb)
+- Machine Learning for Time Series Data in Python [notebook](https://github.com/worasom/class-projects/blob/master/ml4time_series.ipynb)
+- A/B Testing: Analyzed data from the popular mobile game, Cookie Cats. Used bootstrap analysis to compare effectiveness of time pause at level 30 and 40 toward user retention [notebook](https://github.com/worasom/class-projects/blob/master/cookie_cats.ipynb)
+- Inferential Statistic [notebook](https://github.com/worasom/class-projects/blob/master/statistic_inference.ipynb)
+
+# Courseworks<a id='courseworks'></a> 
+
+- Machine Learning 
+    - Data Scientist [Certificate](https://github.com/worasom/wora  som.github.io/blob/master/WK-certificates/Data%20Scientist%20with%20Python%20Track.pdf)  and [Certificate](https://github.com/worasom/worasom.github.io/blob/master/WK-certificates/Machine%20Learning%20with%20Python%20Track.pdf)from DataCamp.com: supervise learning, unsupervised learning, Fraud Detection [Certificate](https://github.com/worasom/worasom.github.io/blob/master/WK-certificates/Fraud%20Detection%20in%20Python.pdf)
+    - Machine learning by fast.ai: random forest, feature of importance, partial dependence, gradient descent, logistic regression, feature engineering, natural language processing, embedding
+    - CS109 Data Science by Harvard University: Web Scraping, Pandas, Exploratory Data Analysis, SQL, Statistical Models, Bias and Regression, machine learning models, clustering 
+  
+- Deep Learning
+    - Deep Learning by fast.ai: Image classification, SGD, multi-label, Segmentation, NLP, backprob, CNN, Resnet, U-net, GANs
+    - Convolutional Neural Networks for Visual Recognition by Stanford University: image classification, localization and detection
+
+- Database: database from DataCamp.com [certificate](https://github.com/worasom/worasom.github.io/blob/master/WK-certificates/SQL%20Fundamentals%20Track.pdf), SQLite, Postgre, MongoDB
+
+- Other topics: pyspark, importing and cleaning data in Python, pandas, interactive data visualization with Bokeh and geopandas, statistical thinking in Python from DataCamp.com

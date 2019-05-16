@@ -14,8 +14,15 @@ Data science [resume](https://github.com/worasom/worasom.github.io/blob/master/W
     - [Image Segmentation](#imageseg) 
     - [Database](#database)
 3. [Blogs](#blogs)
-4. [Class Projects/Notes](#class)
-5. [Publications and Conferences](#publications) 
+4. [Reserach Projects and Publications](#publications) 
+   - [Study Novel Materials](#material) 
+   - [Image Analysis](#image)
+   - [Microfabrication](#microfab)
+   - [Software](#software)
+   - [Hardware](#hardware)
+   - [Simulation](#simulation)
+5. [Class Projects/Notes](#class)
+6. [Courseworks](#courseworks)
 
 
 # About me <a id='about'></a>
@@ -88,6 +95,45 @@ Identifying the Sources of Winter Air Pollution in Bangkok Part I. Published in 
 Identifying the Sources of Winter Air Pollution in Bangkok Part II. Published in [Medium.com](https://towardsdatascience.com/identifying-the-sources-of-winter-air-pollution-in-bangkok-part-ii-72539f9b767a)
 
 
+
+# Reserach Projects and Publications<a id='publications'></a> 
+
+## Study Novel Materials<a id='material'></a> 
+
+- **Memory Device**: Identified defect-dominated conduction behavior in resistive switching ZnO nanowire devices that can improve the growth process. Used non-linear fitting in MATLAB.  O. Srikimkaew, **W. Kundhikanjana (Leader)**, et al., Journal of Electronics material (2019) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Size-Independent%20Unipolar%20and%20Bipolar%20Resistive%20Switching%20Behaviors%20in%20ZnO%20Nanowires.pdf) 
+
+- **Ferroelectric Material**: Studied effectiveness of Sm substitution in improving ferroelectric property, and reducing conductivity in bismuth ferrite ceramics. Identified an optimal doping level for ferroelectic device applications. Used image cross-correlation, curve fitting(python). P. Sriboriboon, **W. Kundhikanjana (Leader)**, et al., Physics Letter A, (2019)[pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Effects%20of%20Sm%20Substitution%20on%20Ferroelectric%20Domains%20and%20Conductivity%20in%20Bismuth%20Ferrite%20Ceramics%20-2019.pdf). J. Nonkumwong,  **W. Kundhikanjana (CO-Leader)**, et al., Integrated Ferroelectrics (2018) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Ferroelectric%20domain%20evolution%20in%20gold%20nanoparticle-modified%20perovskite%20barium%20titanate%20ceramics%20by%20piezoresponse%20force%20microscopy2018.pdf)
+
+- **Biological study**
+    - Studied survival strategy of Arthrospira platensis (Spirulina) by shape transformation from spiral to rod shapes for effective food production.  A. Chaiyasitdhi, **W. Kundhikanjana (CO-Leader)**, et al., PLoS ONE, (2018) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/The%20biomechanical%20role%20of%20overall-shape%20transformation%20in%20a%20primitive%20multicellular%20organism%20A%20case%20study%20of%20dimorphism%20in%20the%20filamentous%20cyanobacterium%20Arthrospira%20platensis-2018.pdf)
+    - Investiage effect of storage mediums on ultrastructure of spermatozoa. C. Riou, **W. Kundhikanjana (CO-Leader)**, Avian Model Sytems Conference, (2018) 
+
+- **Strongly Correlated Oxides**: Designed and conducted imaging experiments to capture microscopic glassy behavior of a metallic phase in a perovskite manganite film. Cross-correlation analysis to register large sets of images (MATLAB). Image segmentation to calculate areal fraction of the metallic phase. **W. Kundhikanjana (main author)**, et al, Physical Review Letters, (2015) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Direct%20Imaging%20of%20Dynamic%20Glassy%20Behavior%20in%20a%20Strained%20Manganite%20Film-2015.pdf)
+
+- **Semiconductor Material**: Failure analysis of a RAM device. Identified the cause of an unexpected surface implanted layer. Figure selected for Journal cover page.  **W. Kundhikanjana (main author)**, et al, Semiconductor Science and Technology (2013)  
+
+## Image Analysis<a id='image'></a>
+     
+- Investigated nanoscale electronic properties in novel materials. Image analysis to understand statistical inference of the data. **W. Kundhikanjana (main author)**, Nano Letters, (2009) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Hierarchy%20of%20Electronic%20Properties%20of%20Chemically%20Derived%20and%20Pristine%20Graphene%20Probed%20by%20Microwave%20Imaging%202009.pdf)
+- Image segmentation and edge detection in (MATLAB). K. Lai, **W. Kundhikanjana (co-author)**, Physical Review Letters, (2011) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Imaging%20of%20Coulomb-Driven%20Quantum%20Hall%20Edge%20States-2011.pdf)
+- Used image autocorrelation to calculate correlation length (MATLAB).  K. Lai, **W. Kundhikanjana (co-author)**, Science, (2010) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Mesoscopic%20Percolating%20Resistance%20Network%20in%20a%20Strained%20Manganitethinfilm%20Science-2010-Lai-190-3.pdf) and [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Ultrathin%20Topological%20Insulator%20Bi2Se3%20Nanoribbons%20Exfoliated%20by%20Atomic%20Force%20Microscopy_2010.pdf)
+
+## Microfabrication<a id='microfab'></a>
+
+Failure analysis to help optimize microfabrication process of cantilever probes for commercial purpose. Resulted in a spin-off company (PrimeNano Inc). Y. Yang, **W. Kundhikanjana (co-author)**, et al, Journal of Micromechanics and Microengineering (2012) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Batch-fabricated%20cantilever%20probes%20with%20electrical%20shielding%20for%20nanoscale%20dielectric%20and%20conductivity%20imaging-2012.pdf), Y. Yang, **W. Kundhikanjana (co-author)**, Journal of Micromechanics and Microengineering (2014)[pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Shielded%20piezoresistive%20cantilever%20probes%20fornanoscaletopography%20and%20electrical%20imaging.pdf), Y. Yang, **W. Kundhikanjana (co-author)**, MEMS  (2011)[pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/A%20SHIELDED%20CANTILEVER-TIP%20MICROWAVE%20PROBE%20FOR%20MICRO_NANO%20SURFACE%20IMAGING%20OF%20CONDUCTIVE%20PROPERTIES%202011.pdf), and  A.J. Haemmerli, **W. Kundhikanjana (co-author)**, MEMS  (2012) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Low-impedance%20shielded%20tip%20piezoresistive%20probe%20enables%20portable%20microwave%20impedance%20microscopy-2012.pdf)
+
+## Software<a id='software'></a>
+Designed automatic control and data acquisition software in LabVIEW for high-vacuum and low temperature scanning probe microscopy platform. Resulted in many follow up publication in high-impact journals. **W. Kundhikanjana (main author)**, et al, Review of Scientific Instruments, (2011) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Cryogenic%20microwave%20imaging%20of%20metal%E2%80%93insulator%20transition%20in%20doped%20silicon_2011.pdf) 
+
+## Hardware<a id='hardware'></a>
+- Designed and implemented calibration procedure for quantitative dielectric measurement with microwave microscopy technique.  K. Lai, **W. Kundhikanjana (co-author)**, et al, Review of Scientific Instruments, (2009) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Calibration%20of%20shielded%20microwave%20probes%20using%20bulk%20dielectrics-2008.pdf) and K. Lai, **W. Kundhikanjana (co-author)**, et al, Review of Scientific Instruments, (2009) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Tapping%20mode%20microwave%20impedance%20microscopy-2009.pdf)
+- Explored applications and provided show cases for the invented microscopy technique. K. Lai, **W. Kundhikanjana (co-author)**, Nano Letter, (2009) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Nanoscale%20Electronic%20Inhomogeneity%20in%20In2Se3%20Nanoribbons%20Revealed%20by%20Microwave%20Impedance%20Microscopy-2009.pdf), S.-S.Hong, **W. Kundhikanjana (co-author)**, Nano Letter, (2010)[pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Ultrathin%20Topological%20Insulator%20Bi2Se3%20Nanoribbons%20Exfoliated%20by%20Atomic%20Force%20Microscopy_2010.pdf), E.Y. Ma, **W. Kundhikanjana (co-author)**, Nature Communication, (2015)[pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Unexpected%20edge%20conduction%20in%20mercury%20telluride%20quantum%20wells%20under%20broken%20time-reversal%20symmetry-2015.pdf)
+
+## Simulation<a id='simulation'></a>
+
+Developed microwave impedence microscopy technique. Finite element modeling(FEA) of tip-sample interaction(COMSOL) to understand the contrast mechanism of nanoscale microwave microscopy technique, which provides hard-to-obtain information for material development. K. Lai, **W. Kundhikanjana (co-author)**, et al, Review of Scientific Instruments, (2008) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Calibration%20of%20shielded%20microwave%20probes%20using%20bulk%20dielectrics-2008.pdf), K. Lai, **W. Kundhikanjana (co-author)**, Applied Nanoscience, (2011) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Nanoscale%20microwave%20microscopy%20using%20shielded%20cantilever%20probes-2011.pdf)
+
+
 # Class Projects/Notes [repository](https://github.com/worasom/class-projects)<a id='class'></a>
 
 - Deep Learning [notebook](https://github.com/worasom/class-projects/blob/master/DL_keras.ipynb)
@@ -98,6 +144,7 @@ Identifying the Sources of Winter Air Pollution in Bangkok Part II. Published in
 - Time Series Analysis [notebook](https://github.com/worasom/class-projects/blob/master/time-series-anlysis.ipynb)
 - Machine Learning for Time Series Data in Python [notebook](https://github.com/worasom/class-projects/blob/master/ml4time_series.ipynb)
 - A/B Testing: Analyzed data from the popular mobile game, Cookie Cats. Used bootstrap analysis to compare effectiveness of time pause at level 30 and 40 toward user retention [notebook](https://github.com/worasom/class-projects/blob/master/cookie_cats.ipynb)
+- Inferential Statistic [notebook](https://github.com/worasom/class-projects/blob/master/statistic_inference.ipynb)
 
 # Courseworks<a id='courseworks'></a> 
 
@@ -113,32 +160,3 @@ Identifying the Sources of Winter Air Pollution in Bangkok Part II. Published in
 - Database: database from DataCamp.com [certificate](https://github.com/worasom/worasom.github.io/blob/master/WK-certificates/SQL%20Fundamentals%20Track.pdf), SQLite, Postgre, MongoDB
 
 - Other topics: pyspark, importing and cleaning data in Python, pandas, interactive data visualization with Bokeh and geopandas, statistical thinking in Python from DataCamp.com
-
-# Publications and Conferences<a id='publications'></a> 
-
-- **Memory Device**: Identified defect-dominated conduction behavior in resistive switching ZnO nanowire devices that can improve the growth process. Used non-linear fitting in MATLAB.  O. Srikimkaew, **W. Kundhikanjana (Leader)**, et al., Journal of Electronics material (2019) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Size-Independent%20Unipolar%20and%20Bipolar%20Resistive%20Switching%20Behaviors%20in%20ZnO%20Nanowires.pdf) 
-
-- **Ferroelectric Material**: Studied effectiveness of Sm substitution in improving ferroelectric property, and reducing conductivity in bismuth ferrite ceramics. Identified an optimal doping level for ferroelectic device applications. Used image cross-correlation, curve fitting(python). P. Sriboriboon, **W. Kundhikanjana (Leader)**, et al., Physics Letter A, (2019)[pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Effects%20of%20Sm%20Substitution%20on%20Ferroelectric%20Domains%20and%20Conductivity%20in%20Bismuth%20Ferrite%20Ceramics%20-2019.pdf). J. Nonkumwong,  **W. Kundhikanjana (CO-Leader)**, et al., Integrated Ferroelectrics (2018) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Ferroelectric%20domain%20evolution%20in%20gold%20nanoparticle-modified%20perovskite%20barium%20titanate%20ceramics%20by%20piezoresponse%20force%20microscopy2018.pdf)
-
-- **Biological study**
-    - Studied survival strategy of Arthrospira platensis (Spirulina) by shape transformation from spiral to rod shapes for effective food production.  A. Chaiyasitdhi, **W. Kundhikanjana (CO-Leader)**, et al., PLoS ONE, (2018) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/The%20biomechanical%20role%20of%20overall-shape%20transformation%20in%20a%20primitive%20multicellular%20organism%20A%20case%20study%20of%20dimorphism%20in%20the%20filamentous%20cyanobacterium%20Arthrospira%20platensis-2018.pdf)
-    - Investiage effect of storage mediums on ultrastructure of spermatozoa. C. Riou, **W. Kundhikanjana (CO-Leader)**, Avian Model Sytems Conference, (2018) 
-
-- **Strongly Correlated Oxides**: Designed and conducted imaging experiments to capture microscopic glassy behavior of a metallic phase in a perovskite manganite film. Cross-correlation analysis to register large sets of images (MATLAB). Image segmentation to calculate areal fraction of the metallic phase. **W. Kundhikanjana (main author)**, et al, Physical Review Letters, (2015) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Direct%20Imaging%20of%20Dynamic%20Glassy%20Behavior%20in%20a%20Strained%20Manganite%20Film-2015.pdf)
-
-- **Semiconductor Material**: Failure analysis of a RAM device. Identified the cause of an unexpected surface implanted layer. Figure selected for Journal cover page.  **W. Kundhikanjana (main author)**, et al, Semiconductor Science and Technology (2013)  
-
-- **Image Analysis**
-     - Investigated nanoscale electronic properties in novel materials. Image analysis to understand statistical inference of the data. **W. Kundhikanjana (main author)**, Nano Letters, (2009) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Hierarchy%20of%20Electronic%20Properties%20of%20Chemically%20Derived%20and%20Pristine%20Graphene%20Probed%20by%20Microwave%20Imaging%202009.pdf)
-     - Image segmentation and edge detection in (MATLAB). K. Lai, **W. Kundhikanjana (co-author)**, Physical Review Letters, (2011) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Imaging%20of%20Coulomb-Driven%20Quantum%20Hall%20Edge%20States-2011.pdf)
-     - Used image autocorrelation to calculate correlation length (MATLAB).  K. Lai, **W. Kundhikanjana (co-author)**, Science, (2010) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Mesoscopic%20Percolating%20Resistance%20Network%20in%20a%20Strained%20Manganitethinfilm%20Science-2010-Lai-190-3.pdf) and [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Ultrathin%20Topological%20Insulator%20Bi2Se3%20Nanoribbons%20Exfoliated%20by%20Atomic%20Force%20Microscopy_2010.pdf)
-
-- **Microfabrication**: Failure analysis to help optimize microfabrication process of cantilever probes for commercial purpose. Resulted in a spin-off company (PrimeNano Inc). Y. Yang, **W. Kundhikanjana (co-author)**, et al, Journal of Micromechanics and Microengineering (2012) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Batch-fabricated%20cantilever%20probes%20with%20electrical%20shielding%20for%20nanoscale%20dielectric%20and%20conductivity%20imaging-2012.pdf), Y. Yang, **W. Kundhikanjana (co-author)**, Journal of Micromechanics and Microengineering (2014)[pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Shielded%20piezoresistive%20cantilever%20probes%20fornanoscaletopography%20and%20electrical%20imaging.pdf), Y. Yang, **W. Kundhikanjana (co-author)**, MEMS  (2011)[pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/A%20SHIELDED%20CANTILEVER-TIP%20MICROWAVE%20PROBE%20FOR%20MICRO_NANO%20SURFACE%20IMAGING%20OF%20CONDUCTIVE%20PROPERTIES%202011.pdf), and  A.J. Haemmerli, **W. Kundhikanjana (co-author)**, MEMS  (2012) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Low-impedance%20shielded%20tip%20piezoresistive%20probe%20enables%20portable%20microwave%20impedance%20microscopy-2012.pdf)
-
-- **Software**: Designed automatic control and data acquisition software in LabVIEW for high-vacuum and low temperature scanning probe microscopy platform. Resulted in many follow up publication in high-impact journals. **W. Kundhikanjana (main author)**, et al, Review of Scientific Instruments, (2011) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Cryogenic%20microwave%20imaging%20of%20metal%E2%80%93insulator%20transition%20in%20doped%20silicon_2011.pdf) 
-
-- **Hardware**
-     - Designed and implemented calibration procedure for quantitative dielectric measurement with microwave microscopy technique.  K. Lai, **W. Kundhikanjana (co-author)**, et al, Review of Scientific Instruments, (2009) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Calibration%20of%20shielded%20microwave%20probes%20using%20bulk%20dielectrics-2008.pdf) and K. Lai, **W. Kundhikanjana (co-author)**, et al, Review of Scientific Instruments, (2009) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Tapping%20mode%20microwave%20impedance%20microscopy-2009.pdf)
-     - Explored applications and provided show cases for the invented microscopy technique. K. Lai, **W. Kundhikanjana (co-author)**, Nano Letter, (2009) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Nanoscale%20Electronic%20Inhomogeneity%20in%20In2Se3%20Nanoribbons%20Revealed%20by%20Microwave%20Impedance%20Microscopy-2009.pdf), S.-S.Hong, **W. Kundhikanjana (co-author)**, Nano Letter, (2010)[pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Ultrathin%20Topological%20Insulator%20Bi2Se3%20Nanoribbons%20Exfoliated%20by%20Atomic%20Force%20Microscopy_2010.pdf), E.Y. Ma, **W. Kundhikanjana (co-author)**, Nature Communication, (2015)[pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Unexpected%20edge%20conduction%20in%20mercury%20telluride%20quantum%20wells%20under%20broken%20time-reversal%20symmetry-2015.pdf)
-
-- **Simulation**: Developed microwave impedence microscopy technique. Finite element modeling of tip-sample interaction (COMSOL) to understand the contrast mechanism of nanoscale microwave microscopy technique, which provides hard-to-obtain information for material development. K. Lai, **W. Kundhikanjana (co-author)**, et al, Review of Scientific Instruments, (2008) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Calibration%20of%20shielded%20microwave%20probes%20using%20bulk%20dielectrics-2008.pdf), K. Lai, **W. Kundhikanjana (co-author)**, Applied Nanoscience, (2011) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Nanoscale%20microwave%20microscopy%20using%20shielded%20cantilever%20probes-2011.pdf)
