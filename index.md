@@ -7,6 +7,7 @@ layout: default
 1. [About me](#about)
 2. [Machine Learning Projects](#ml)
     - [Analysis of Air Pollution Data](#airpoll)
+    - [Predicting US Monthly Electricity Consumption](#energy)
     - [Patient Classifation using Health Data](#health)
     - [Image Classifications](#imageclass)
     - [Image Segmentation](#imageseg)

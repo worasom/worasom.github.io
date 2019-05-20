@@ -9,6 +9,7 @@ Data science [resume](https://github.com/worasom/worasom.github.io/blob/master/W
 1. [About me](#about)
 2. [Machine Learning Projects](#ml)
     - [Analysis of Air Pollution Data](#airpoll)
+    - [Predicting US Monthly Electricity Consumption](#energy)
     - [Patient Classifation using Health Data](#health)
     - [Image Classifications](#imageclass)
     - [Image Segmentation](#imageseg)
@@ -36,7 +37,7 @@ My PhD research focused on the development and applications of a scanning near-f
 
 # Machine Learning Projects<a id='ml'></a>
 
-## Analysis of Air Pollution Data [git repository](https://github.com/worasom/aqi_thailand)<a id='airpoll'></a> 
+## Analysis of Air Pollution Data [repository](https://github.com/worasom/aqi_thailand)<a id='airpoll'></a> 
 - Enabled effective environmental policy change by identifying main air pollutant sources.
 - Scraped weather and Bangkok air pollution data from NASA’s fire map, Berkeley Earth air pollution, and traffic data (Requests, wget, selenium, BeautifulSoup libraries) 
 - Created visualization of how the air pollution relates to geographical locations, agricultural burning, weather patterns (matplot.pyplotlib, Bokeh libraries)
@@ -44,9 +45,19 @@ My PhD research focused on the development and applications of a scanning near-f
 - Built a machine learning pipeline to identify the major contributors to PM2.5 air pollution: Used autoML to identify the best models and hyper parameters (TPOT library), identified contributions of different pollution sources through feature of importance.
 - Obtained 0.78 R-square on the validation set 
 - Applied other ML models: Used neural network (fast.ai), and VAR models(statmodels)
+- Setup an SQLite database of the air pollution data [notebook](https://github.com/worasom/database_projects/blob/master/SQL_datascience.ipynb) 
 - Blog: Scraping Air Pollution Data from Thailand EPA. Published in [Medium.com](https://medium.com/@worasom/scraping-air-pollution-data-from-thailand-epa-a866f291c06)  
 - Blog: Identifying the Sources of Winter Air Pollution in Bangkok Part I. Published in [Medium.com](https://towardsdatascience.com/identifying-the-sources-of-winter-air-pollution-in-bangkok-part-i-d4392ea608dc)
 - Blog: Identifying the Sources of Winter Air Pollution in Bangkok Part II. Published in [Medium.com](https://towardsdatascience.com/identifying-the-sources-of-winter-air-pollution-in-bangkok-part-ii-72539f9b767a)
+
+## Predicting US Monthly Electricity Consumption [project page](https://worasom.github.io/energy_sale_rev/)<a id='energy'></a> 
+
+- Predict monthly electricity consumption in the US by state using economic and weather data providing more details than short-term energy outlook from Energy Information Administration (EIA). Identify major contributing factors, which not only help with infrastructure planning and economical projections, but also estimates of electricity sales revenue and the deployment of more energy efficient products 
+- Project [repository](https://github.com/worasom/energy_sale_rev) in GitHub.
+- Obtained data by downloading and using web API (selenium library).
+- Performed extensive feature engineering and exploratory data analysis, cross checking the accuracy and consistency of the data. Cleaned up missing data (pandas, numpy, seaborn). Visualize hierarchical relationship between features (scipy library) 
+- Performed feature selection and built machine learning models for the three sectors,  analyzed model performance by state (scikit-learn, TPOT libaries). Use random forest regressor and feature of importance for feature selection. Achieve 0.99 R-squared for the test set (EIA's prediction is 0.9999). Build a prediction pipeline and visualization from saved models (joblib library). Plotted interactive time-series prediction in Bokeh.
+- Deployed model prediction in Heroku [Repository](https://github.com/worasom/energy_app)
 
 ## Health Data<a id='health'></a> 
 
@@ -82,9 +93,8 @@ My PhD research focused on the development and applications of a scanning near-f
 
 ## Database<a id='database'></a>: 
 
-- **MongoDB [notebook](https://github.com/worasom/database_projects/blob/master/MongoDB.ipynb)**: Query documents and subdocuments, Counting Documents, Survey Distinct Values with filters, element match operator, Filter with Regular Expressions, Indexes in MongoDB, aggregation 
-- **SQLite [notebook](https://github.com/worasom/database_projects/blob/master/SQL_datascience.ipynb)**: How to setup an SQLite server and populate tables, Insert, delete colums from the tables, Query the table and output as dataframe, Filter query using WHERE, AND, OR, IS NULL, LIKE, Aggregation using GROUP BY, ORDER BY, Create index, Joins
-
+- **Build a MongoDB Database[notebook](https://github.com/worasom/database_projects/blob/master/MongoDB.ipynb)**: Create a MongoDB database. Query documents and subdocuments, Counting Documents, Survey Distinct Values with filters, element match operator, Filter with Regular Expressions, Indexes in MongoDB, aggregation 
+- **Build a SQLite Database of Air Pollution Data[notebook](https://github.com/worasom/database_projects/blob/master/SQL_datascience.ipynb)**: Setup an SQLite server and populate tables, Insert, delete colums from the tables, Query the table and output as dataframe, Filter query using WHERE, AND, OR, IS NULL, LIKE, Aggregation using GROUP BY, ORDER BY, Create index, Joins
 
 # Blogs<a id='blogs'></a>
 
