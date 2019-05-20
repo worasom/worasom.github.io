@@ -47,10 +47,10 @@ My PhD research focused on the development and applications of a scanning near-f
 - Blog: Identifying the Sources of Winter Air Pollution in Bangkok Part I. Published in [Medium.com](https://towardsdatascience.com/identifying-the-sources-of-winter-air-pollution-in-bangkok-part-i-d4392ea608dc)
 - Blog: Identifying the Sources of Winter Air Pollution in Bangkok Part II. Published in [Medium.com](https://towardsdatascience.com/identifying-the-sources-of-winter-air-pollution-in-bangkok-part-ii-72539f9b767a)
 
-## Predicting US Monthly Electricity Consumption [page](https://worasom.github.io/energy_sale_rev/)
+## Predicting US Monthly Electricity Consumption [project page](https://worasom.github.io/energy_sale_rev/)
 
 - Predict monthly electricity consumption in the US by state using economic and weather data providing more details than short-term energy outlook from Energy Information Administration (EIA). Identify major contributing factors, which not only help with infrastructure planning and economical projections, but also estimates of electricity sales revenue and the deployment of more energy efficient products 
-- Project[repository](https://github.com/worasom/energy_sale_rev) in GitHub.
+- Project [repository](https://github.com/worasom/energy_sale_rev) in GitHub.
 - Obtained data by downloading and using web API (selenium library).
 - Performed extensive feature engineering and exploratory data analysis, cross checking the accuracy and consistency of the data. Cleaned up missing data (pandas, numpy, seaborn). Visualize hierarchical relationship between features (scipy library) 
 - Performed feature selection and built machine learning models for the three sectors,  analyzed model performance by state (scikit-learn, TPOT libaries). Use random forest regressor and feature of importance for feature selection. Achieve 0.99 R-squared for the test set (EIA's prediction is 0.9999). Build a prediction pipeline and visualization from saved models (joblib library). Plotted interactive time-series prediction in Bokeh.
