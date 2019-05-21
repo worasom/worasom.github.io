@@ -35,7 +35,8 @@ My PhD research focused on the development and applications of a scanning near-f
 
 # Machine Learning Projects<a id='ml'></a>
 
-## Analysis of Air Pollution Data [git repository](https://github.com/worasom/aqi_thailand)<a id='airpoll'></a> 
+## Analysis of Air Pollution Data<a id='airpoll'></a>  
+- [git repository](https://github.com/worasom/aqi_thailand)
 - Enabled effective environmental policy change by identifying main air pollutant sources.
 - Scraped weather and Bangkok air pollution data from NASA’s fire map, Berkeley Earth air pollution, and traffic data (Requests, wget, selenium, BeautifulSoup libraries) 
 - Created visualization of how the air pollution relates to geographical locations, agricultural burning, weather patterns (matplot.pyplotlib, Bokeh libraries)
@@ -48,9 +49,10 @@ My PhD research focused on the development and applications of a scanning near-f
 - Blog: Identifying the Sources of Winter Air Pollution in Bangkok Part I. Published in [Medium.com](https://towardsdatascience.com/identifying-the-sources-of-winter-air-pollution-in-bangkok-part-i-d4392ea608dc)
 - Blog: Identifying the Sources of Winter Air Pollution in Bangkok Part II. Published in [Medium.com](https://towardsdatascience.com/identifying-the-sources-of-winter-air-pollution-in-bangkok-part-ii-72539f9b767a)
 
-## Predicting US Monthly Electricity Consumption [project page](https://worasom.github.io/energy_sale_rev/)
+## Predicting US Monthly Electricity Consumption<a id='energy'></a> 
+[project page](https://worasom.github.io/energy_sale_rev/)
 
-- Predict monthly electricity consumption in the US by state using economic and weather data providing more details than short-term energy outlook from Energy Information Administration (EIA). Identify major contributing factors, which not only help with infrastructure planning and economical projections, but also estimates of electricity sales revenue and the deployment of more energy efficient products 
+- Predicted monthly electricity consumption in the US on a state by state basis using economic and weather data, with more granularity than the short-term energy outlook from the Energy Information Administration (EIA). Identified major contributing factors, which not only help with infrastructure planning and economical projections, but also estimates of electricity sales revenue and the deployment of more energy efficient products.
 - Project [repository](https://github.com/worasom/energy_sale_rev) in GitHub.
 - Obtained data by downloading and using web API (selenium library).
 - Performed extensive feature engineering and exploratory data analysis, cross checking the accuracy and consistency of the data. Cleaned up missing data (pandas, numpy, seaborn). Visualize hierarchical relationship between features (scipy library) 
