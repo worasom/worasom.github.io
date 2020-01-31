@@ -26,7 +26,7 @@ layout: default
 
 # About me <a id='about'></a>
 
-I am an aspiring data scientist with a board range of technical experience in data science and material science. I am interested in applications of machine learning (ML) in data inference, pattern identification, data driven decision-making, and model deployment. 
+I am a data scientist with a board range of technical experience in data science and material science. My expertise is in anomaly detection of sensors reading during manufacturing process. I also like to analyze other time-series data such pollution and energy data. I am interested in using machine learning (ML) for in data inference, pattern identification, data driven decision-making, and in model deployment. 
 
 I was the Principal Investigator of a scanning probe microscopy group at Suranaree University of Technology, Thailand. My group focused on how nanoscale material properties give rise to the rich phenomena observed in mixed phase systems. We made extensive use of automated image and data processing techniques to analyze our large data sets, and to reveal the underlying physical mechanisms of the phenomena. Some topics investigated by my group include - the ferroelectric and diode behavior in Sm-doped BiFeO3, resistive switching behavior in ZnO nanowires, and the structure and biomechanics of Spirulina and avian sperm. We also collaborated with Western Digital Thailand on the development of novel materials for the memory storage industry.
 
@@ -37,7 +37,7 @@ My PhD research focused on the development and applications of a scanning near-f
 
 ## Analysis of Air Pollution Data<a id='airpoll'></a>  
 - [git repository](https://github.com/worasom/aqi_thailand)
-- Enabled effective environmental policy change by identifying main air pollutant sources.
+- Enabled effective environmental policy change by identifying main air pollutant sources. Explained the finding to Thai reporters and Reuters.
 - Scraped weather and Bangkok air pollution data from NASA’s fire map, Berkeley Earth air pollution, and traffic data (Requests, wget, selenium, BeautifulSoup libraries) 
 - Created visualization of how the air pollution relates to geographical locations, agricultural burning, weather patterns (matplot.pyplotlib, Bokeh libraries)
 - Made extensive use of feature engineering and cleaning: included influence of neighboring provinces with time lag, distance weighed fire map data, extracted features from weather patterns, and date-time feature engineering. Removed redundant features using hierarchical clustering (scipy library)
