@@ -121,7 +121,12 @@ Identifying the Sources of Winter Air Pollution in Bangkok Part II. Published in
 
 - **Strongly Correlated Oxides**: Designed and conducted imaging experiments to capture microscopic glassy behavior of a metallic phase in a perovskite manganite film. Cross-correlation analysis to register large sets of images (MATLAB). Image segmentation to calculate areal fraction of the metallic phase. **W. Kundhikanjana (main author)**, et al, Physical Review Letters, (2015) [pdf](https://github.com/worasom/worasom.github.io/blob/master/WK-publications/Direct%20Imaging%20of%20Dynamic%20Glassy%20Behavior%20in%20a%20Strained%20Manganite%20Film-2015.pdf)
 
-- **Semiconductor Material**: Failure analysis of a RAM device. Identified the cause of an unexpected surface implanted layer. Figure selected for Journal cover page.  **W. Kundhikanjana (main author)**, et al, Semiconductor Science and Technology (2013)  
+- **Semiconductor Material**: 
+    - Failure analysis of a RAM device. Identified the cause of an unexpected surface implanted layer. Figure selected for Journal cover page.  **W. Kundhikanjana (main author)**, et al, Semiconductor Science and Technology (2013)  
+    - Dissolution mechanism of MgO thin film shielding layer in tunneling magnetoresistance hard disk drive read head. **W. Kundhikanjana (CO-Leader)**, et al, Material Today Communications, (2020) [link](https://doi.org/10.1016/j.mtcomm.2020.101374) 
+    
+- **Surface Science**:
+    - Effects of catalyst surfaces on adsorption revealed by atomic force microscope force spectroscopy: photocatalytic degradation of diuron over zinc oxide. **W. Kundhikanjana (co author)**, et. all, Physical Chemistry Chemical Physics, (2020) [link](https://pubs.rsc.org/en/content/articlelanding/2020/cp/d0cp02454f/unauth#!divAbstract)
 
 ## Image Analysis<a id='image'></a>
      
