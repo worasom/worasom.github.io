@@ -6,6 +6,7 @@ layout: default
 
 1. [About me](#about)
 2. [Machine Learning Projects](#ml)
+    - [Anomaly Detection](#anomaly_detection)
     - [Analysis of Air Pollution Data](#airpoll)
     - [Predicting US Monthly Electricity Consumption](#energy)
     - [Patient Classifation using Health Data](#health)
@@ -13,6 +14,7 @@ layout: default
     - [Image Segmentation](#imageseg)
     - [Database](#database): MongoDB, SQLite
 3. [Reserach Projects and Publications](#publications) 
+   - [Data Science and Data Analysis](#data_sci_pubs)
    - [Study Novel Materials](#material): Memory Devices, Ferroelectric Material,Biological study, Strongly Correlated Oxides, Semiconductor Materials
    - [Image Analysis](#image): Image analysis, Image segmentation, Image correlation
    - [Microfabrication](#microfab)
@@ -26,7 +28,9 @@ layout: default
 
 # About me <a id='about'></a>
 
-I am a data scientist with a board range of technical experience in data science and material science. My expertise is in anomaly detection of sensors reading during manufacturing process. I also like to analyze other time-series data such pollution and energy data. I am interested in using machine learning (ML) for in data inference, pattern identification, data driven decision-making, and in model deployment. 
+I am a data scientist with a board range of technical experience in data science and material science. I am interested in applications of machine learning (ML) in anomaly detection, data inference, pattern identification, data driven decision-making, and model deployment. 
+
+My current work focus on detecting anomaly behaviors in semiconductor equipment. The anomaly detection system can help with yield improvement and preventive matainance. I am also a working with UN-ESCAP, Thailand to quantify the impact of agricultural burning and traffic on air pollution problems and health outcomes in ASEAN cities. The finding can help shape data-driven policy change.
 
 I was the Principal Investigator of a scanning probe microscopy group at Suranaree University of Technology, Thailand. My group focused on how nanoscale material properties give rise to the rich phenomena observed in mixed phase systems. We made extensive use of automated image and data processing techniques to analyze our large data sets, and to reveal the underlying physical mechanisms of the phenomena. Some topics investigated by my group include - the ferroelectric and diode behavior in Sm-doped BiFeO3, resistive switching behavior in ZnO nanowires, and the structure and biomechanics of Spirulina and avian sperm. We also collaborated with Western Digital Thailand on the development of novel materials for the memory storage industry.
 
@@ -35,16 +39,24 @@ My PhD research focused on the development and applications of a scanning near-f
 
 # Machine Learning Projects<a id='ml'></a>
 
-## Analysis of Air Pollution Data<a id='airpoll'></a>  
-- [git repository](https://github.com/worasom/aqi_thailand)
-- Enabled effective environmental policy change by identifying main air pollutant sources. Explained the finding to Thai reporters and Reuters.
-- Scraped weather and Bangkok air pollution data from NASA’s fire map, Berkeley Earth air pollution, and traffic data (Requests, wget, selenium, BeautifulSoup libraries) 
-- Created visualization of how the air pollution relates to geographical locations, agricultural burning, weather patterns (matplot.pyplotlib, Bokeh libraries)
-- Made extensive use of feature engineering and cleaning: included influence of neighboring provinces with time lag, distance weighed fire map data, extracted features from weather patterns, and date-time feature engineering. Removed redundant features using hierarchical clustering (scipy library)
-- Built a machine learning pipeline to identify the major contributors to PM2.5 air pollution: Used autoML to identify the best models and hyper parameters (TPOT library), identified contributions of different pollution sources through feature of importance.
-- Obtained 0.78 R-square on the validation set 
-- Applied other ML models: Used neural network (fast.ai), and VAR models(statmodels)
-- Setup an SQLite database of the air pollution data [notebook](https://github.com/worasom/database_projects/blob/master/SQL_datascience.ipynb) 
+## Anomaly Detection<a id='anomaly_detection'></a>
+
+- Design, build, runtime-optimize, and test anomaly detection systems for microfabrication equipment. Explore different algorithmic approaches such as clustering(scikit-learn), neural networks(pytorch and Keras) and Markov chain Monte Carlo(pymc3). 
+- Rapid-prototype in Python and depolyment in Java.
+- Communicate with customers to understand their needs and formulate testing criteria and benchmarks. Provide trade-off table summary of different approaches.
+- Exploratory data analysis to understand relationships between sensors in the database and identify critical sensors for feature engineering.
+
+
+## Analysis of Air Pollution Data in ASEAN Cities<a id='airpoll'></a>  
+
+- [git repository](https://github.com/worasom/aqi_thailand2) and [git repository](https://github.com/worasom/aqi_thailand)
+- Model Air Pollution in Southeast Asia (ASEAN) for the UN, UN-ESCAP, Thailand.Enabled effective environmental policy change by identifying main sources of air pollution in ASEAN cities. Built a model to predict hourly pollution level, isolated main pollutant sources using model's feature of importance, predicted scenarios that would help ease air pollution. Findings shared among cities governments and agricultural companies. UN’s [blog]( https://www.unescap.org/blog/deciphering-black-box-air-pollution-data-thailand).
+- Automated web scrapping, data visualization[notebook](https://github.com/worasom/aqi_thailand2/blob/master/notebooks/4.0_vis_ChiangMai.ipynb), feature engineered and cloud-based hyperparameter optimization[notebook](https://github.com/worasom/aqi_thailand2/blob/master/notebooks/5.0_ML_ChiangMai.ipynb), and inference[notebook](https://github.com/worasom/aqi_thailand2/blob/master/notebooks/6_infer_Chiang_Mai.ipynb) pipeline for air pollution modeling that can be scaled to any ASEAN city (Requests, wget, selenium, BeautifulSoup, matplot.pyplotlib, Bokeh, geopanda, scipy, TPOT).   
+- Worked with various data types such as time-series air pollution data, geospatial landuse data, satellite burning hotspot and traffic data.   
+- Made extensive use of time-series feature engineering and cleaning: included influence time lag features, distance weighed pollution sources, extracted features from weather patterns. 
+- Cleaned and merged survey landuse with satellite hotspots data to identify agricultural burning area and the crop types.  area[notebook](https://github.com/worasom/aqi_thailand2/blob/master/notebooks/3.2_explain_landuse.ipynb).  
+- Utilized social economic and health data to identify between diseases caused by high PM2.5 pollutant using correlation, z-test, and linear regression[notebook](https://github.com/worasom/aqi_thailand2/blob/master/notebooks/7.0_health_data.ipynb).
+- Built proof-of-concept an SQLite database of the air pollution data [notebook](https://github.com/worasom/database_projects/blob/master/SQL_datascience.ipynb) 
 - Blog: Scraping Air Pollution Data from Thailand EPA. Published in [Medium.com](https://medium.com/@worasom/scraping-air-pollution-data-from-thailand-epa-a866f291c06)  
 - Blog: Identifying the Sources of Winter Air Pollution in Bangkok Part I. Published in [Medium.com](https://towardsdatascience.com/identifying-the-sources-of-winter-air-pollution-in-bangkok-part-i-d4392ea608dc)
 - Blog: Identifying the Sources of Winter Air Pollution in Bangkok Part II. Published in [Medium.com](https://towardsdatascience.com/identifying-the-sources-of-winter-air-pollution-in-bangkok-part-ii-72539f9b767a)
@@ -99,6 +111,8 @@ My PhD research focused on the development and applications of a scanning near-f
 
 # Blogs<a id='blogs'></a>
 
+Deciphering black box air pollution data in Thailand [UN-ESCAPE-blog](https://www.unescap.org/blog/deciphering-black-box-air-pollution-data-thailand).
+
 Scraping Air Pollution Data from Thailand EPA. Published in [Medium.com](https://medium.com/@worasom/scraping-air-pollution-data-from-thailand-epa-a866f291c06)  
 
 Identifying the Sources of Winter Air Pollution in Bangkok Part I. Published in [Medium.com](https://towardsdatascience.com/identifying-the-sources-of-winter-air-pollution-in-bangkok-part-i-d4392ea608dc)
@@ -108,6 +122,11 @@ Identifying the Sources of Winter Air Pollution in Bangkok Part II. Published in
 
 
 # Reserach Projects and Publications<a id='publications'></a> 
+
+## Data Science and Data Analysis<a id='data_sci_pubs'></a> 
+
+- **Air Pollution**:Interpolation Methods to Produce a Spatially Continuous Map of PM2.5 and Its Contribution to Policy Making. S. Han, D. Stratoulias, **W. Kundhikanjana (Leader)**, E-poster, 5th Global Alliance of Disaster Research Institutes Summit.
+
 
 ## Study Novel Materials<a id='material'></a> 
 
